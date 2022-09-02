@@ -44,6 +44,7 @@ const Officials = () => {
 							<img
 								className="w-64"
 								src={MayorDennis}
+								alt="MayorDennis"
 							/>
 							<div className="font-Cinzel flex flex-col justify-center items-center ">
 								<div className=" justify-center items-center text-lg ">
@@ -66,6 +67,7 @@ const Officials = () => {
 							<img
 								className="w-64"
 								src={ViceMayorNelda}
+								alt="ViceMayorNelda"
 							/>
 							<div className="font-Cinzel flex flex-col justify-center items-center ">
 								<div className=" justify-center items-center">
@@ -93,6 +95,7 @@ const Officials = () => {
 							<img
 								className="w-64"
 								src={SBchristian}
+								alt="SBchristian"
 							/>
 							<div className="font-Cinzel flex flex-col justify-center items-center ">
 								<div className=" justify-center items-center">
@@ -116,6 +119,7 @@ const Officials = () => {
 								<img
 									className="w-52"
 									src={SBlee}
+									alt="SBlee"
 								/>
 							</div>
 
@@ -142,6 +146,7 @@ const Officials = () => {
 								<img
 									className="w-52"
 									src={SBdensio}
+									alt="SBdensio"
 								/>
 							</div>
 
@@ -172,6 +177,7 @@ const Officials = () => {
 								<img
 									className="w-52"
 									src={SBkeith}
+									alt="SBkeith"
 								/>
 							</div>
 
@@ -198,6 +204,7 @@ const Officials = () => {
 							<img
 								className="w-64"
 								src={SBesay}
+								alt="SBesay"
 							/>
 							<div className="font-Cinzel flex flex-col justify-center items-center ">
 								<div className=" justify-center items-center">
@@ -228,6 +235,7 @@ const Officials = () => {
 								<img
 									className="w-52"
 									src={SBjoseph}
+									alt="SBjoseph"
 								/>
 							</div>
 
@@ -254,6 +262,7 @@ const Officials = () => {
 								<img
 									className="w-64"
 									src={SBroger}
+									alt="Hon. ROGER O. BALDADO"
 								/>
 							</div>
 
@@ -281,6 +290,7 @@ const Officials = () => {
 								<img
 									className="w-64"
 									src={SBromulo}
+									alt="SBromulo"
 								/>
 							</div>
 
@@ -309,6 +319,7 @@ const Officials = () => {
 								<img
 									className="w-52"
 									src={ABCchona}
+									alt="ABCchona"
 								/>
 							</div>
 							<div className="font-Cinzel flex flex-col justify-center items-center ">
@@ -333,6 +344,7 @@ const Officials = () => {
 								<img
 									className="w-52"
 									src={SKjasper}
+									alt="SKjasper"
 								/>
 							</div>
 

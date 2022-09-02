@@ -7,6 +7,8 @@ module.exports = {
 				SignikaNegative: ['Signika Negative', 'sans-serif'],
 
 				Cinzel: ['Cinzel', 'serif'],
+				SourceSansPro: ['Source Sans Pro', 'sans-serif'],
+				inter: ['Inter', 'sans-serif'],
 			},
 		},
 	},

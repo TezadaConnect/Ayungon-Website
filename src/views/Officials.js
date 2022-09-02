@@ -8,11 +8,20 @@ import SBlee from '../assets/SBlee.png';
 import SBdensio from '../assets/SBdensio.png';
 import SBkeith from '../assets/SBkeith.png';
 
+import SBesay from '../assets/SBesay.png';
+import SBjoseph from '../assets/SBjoseph.png';
+import SBroger from '../assets/SBroger.png';
+import SBromulo from '../assets/SBromulo.png';
+
+import ABCchona from '../assets/ABCchona.png';
+import SKjasper from '../assets/SKjasper.png';
+import Footer from '../components/Footer';
+
 const Officials = () => {
 	return (
 		<div>
 			{/* Ayungon Logo */}
-			<div className="relative bg-slate-200 mx-20">
+			<div className="flex flex-col bg-slate-200 mx-20 pb-36">
 				<div className="flex flex-row justify-start gap-5 p-10">
 					<div className="flex justify-start">
 						<img
@@ -127,7 +136,7 @@ const Officials = () => {
 					{/* SBlee */}
 
 					{/* SBdensio */}
-					<div className="flex flex-row justify-center items-center pt">
+					<div className="flex flex-row justify-center items-center pt-7">
 						<div className="flex flex-col justify-center items-center">
 							<div>
 								<img
@@ -138,8 +147,13 @@ const Officials = () => {
 
 							<div className="font-Cinzel flex flex-col justify-center items-center ">
 								<div className=" justify-center items-center">
-									<h1 className="font-bold text-xl  ">
-										<u>Hon. Dennis Anthony M. Densing</u>
+									<h1 className="font-bold text-xl flex flex-col justify-center items-center  ">
+										<div>
+											<u>Hon. Dennis Anthony</u>
+										</div>
+										<div>
+											<u> M. Densing</u>
+										</div>
 									</h1>
 								</div>
 
@@ -176,7 +190,170 @@ const Officials = () => {
 					</div>
 					{/* Sbkeith */}
 				</div>
+
+				<div className="flex flex-row justify-center pt-10 gap-7">
+					{/* SBesay */}
+					<div className="flex flex-row justify-center items-center pt-20">
+						<div className="">
+							<img
+								className="w-64"
+								src={SBesay}
+							/>
+							<div className="font-Cinzel flex flex-col justify-center items-center ">
+								<div className=" justify-center items-center">
+									<h1 className="font-bold text-xl flex justify-center ">
+										<div className="flex flex-col justify-center items-center">
+											<div>
+												<u>Hon. TESSA CLAIRE </u>
+											</div>
+											<div>
+												<u> M. OLVEROS</u>
+											</div>
+										</div>
+									</h1>
+								</div>
+
+								<div>
+									<h1>SB MEMBER</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+					{/* SBesay */}
+
+					{/* SBjoseph */}
+					<div className="flex flex-row justify-center items-center pt-2">
+						<div className="flex flex-col justify-center items-center">
+							<div>
+								<img
+									className="w-52"
+									src={SBjoseph}
+								/>
+							</div>
+
+							<div className="font-Cinzel flex flex-col justify-center items-center ">
+								<div className=" justify-center items-center">
+									<h1 className="font-bold text-xl  ">
+										<u>Hon. Joseph Dayahan</u>
+									</h1>
+								</div>
+
+								<div>
+									<h1>SB MEMBER</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					{/*SBjoseph*/}
+
+					{/* SBroger */}
+					<div className="flex flex-row justify-center items-center pt-7">
+						<div className="flex flex-col justify-center items-center">
+							<div>
+								<img
+									className="w-64"
+									src={SBroger}
+								/>
+							</div>
+
+							<div className="font-Cinzel flex flex-col justify-center items-center ">
+								<div className=" justify-center items-center">
+									<h1 className="font-bold text-xl flex flex-col justify-center items-center  ">
+										<div>
+											<u>Hon. ROGER O. BALDADO</u>
+										</div>
+									</h1>
+								</div>
+
+								<div>
+									<h1>SB MEMBER</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+					{/* SBdroger */}
+
+					{/* SBkeith */}
+					<div className="flex flex-row justify-center items-center pt-10">
+						<div className="flex flex-col justify-center items-center">
+							<div>
+								<img
+									className="w-64"
+									src={SBromulo}
+								/>
+							</div>
+
+							<div className="font-Cinzel flex flex-col justify-center items-center ">
+								<div className=" justify-center items-center">
+									<h1 className="font-bold text-xl  ">
+										<u>Hon. ROMULO R. ALFORQUE</u>
+									</h1>
+								</div>
+
+								<div>
+									<h1>SB MEMBER</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+					{/* Sbkeith */}
+				</div>
+
+				<div className="flex flex-row justify-center pt-10 gap-7">
+					{/* ABCchona */}
+					<div className="flex flex-row justify-center items-center pt-11">
+						{' '}
+						<div className="flex flex-col">
+							<div className="flex justify-center">
+								<img
+									className="w-52"
+									src={ABCchona}
+								/>
+							</div>
+							<div className="font-Cinzel flex flex-col justify-center items-center ">
+								<div className=" justify-center items-center">
+									<h1 className="font-bold text-xl  ">
+										<u>Hon. CHONA A. AGUSTINO</u>
+									</h1>
+								</div>
+
+								<div>
+									<h1>ABC PRESIDENT</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+					{/* ABCchona */}
+
+					{/* SBlee */}
+					<div className="flex flex-row justify-center items-center pt-2">
+						<div className="flex flex-col justify-center items-center">
+							<div>
+								<img
+									className="w-52"
+									src={SKjasper}
+								/>
+							</div>
+
+							<div className="font-Cinzel flex flex-col justify-center items-center ">
+								<div className=" justify-center items-center">
+									<h1 className="font-bold text-xl  ">
+										<u>Hon. Jasper Jacob M. Nusan</u>
+									</h1>
+								</div>
+
+								<div>
+									<h1>SK CHAIRMAN</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					{/* SBlee */}
+				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 };

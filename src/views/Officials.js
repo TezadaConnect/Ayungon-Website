@@ -36,7 +36,7 @@ const Officials = () => {
   return (
     <div>
       {/* Ayungon Logo */}
-      <div className="flex flex-col bg-slate-200 mx-20 pb-36">
+      <div className="flex flex-col bg-slate-200 w-10/12 m-auto pb-36">
         <div className="flex flex-row justify-start gap-5 p-10">
           <div className="flex justify-start">
             <img className="w-32" src={ayungonLogo} alt="Ayungon Logo" />

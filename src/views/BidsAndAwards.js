@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const BidsAndAwards = () => {
-  return <div className="w-10/12 m-auto">BidsAndAwards</div>;
+	return <div></div>;
 };
 
 export default BidsAndAwards;

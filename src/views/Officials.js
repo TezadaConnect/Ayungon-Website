@@ -107,16 +107,16 @@ const Officials = () => {
 	return (
 		<div>
 			{/* Ayungon Logo */}
-			<div className="flex flex-col bg-slate-200 w-10/12 m-auto pb-36">
-				<div className="flex flex-row justify-start gap-5 p-10">
-					<div className="flex justify-start">
+			<div className="flex flex-col itme bg-slate-200 w-10/12 m-auto pb-36">
+				<div className="flex flex-col  items-center bg-green-600 lg:justify-start justify-center  p-2">
+					<div className="flex lg:justify-start justify-center items-center text-center">
 						<img
-							className="w-32"
+							className="w-40"
 							src={ayungonLogo}
 							alt="Ayungon Logo"
 						/>
 					</div>
-					<div className="flex  pt-5 font-Cinzel font-bold text-4xl flex-col  	">
+					<div className="flex  pt-5 font-Cinzel text-center font-bold lg:text-4xl text-2xl	 flex-col  items-center">
 						<h1>Municipality Of Ayungon</h1>
 						<h1>Officials</h1>
 					</div>
@@ -124,7 +124,7 @@ const Officials = () => {
 				{/* Ayungon Logo */}
 
 				{/* MayorDennis */}
-				<div className=" flex flex-row justify-center items-center text-center  gap-40	">
+				<div className=" flex lg:flex-row  pt-6 flex-col justify-center items-center text-center  gap-5	">
 					{Mayors?.map((item, key) => {
 						return (
 							<React.Fragment key={key}>
@@ -153,16 +153,16 @@ const Officials = () => {
 					})}
 				</div>
 
-				<div className=" flex justify-center pt-20 text-5xl">
+				<div className=" flex justify-center items-center pt-20 lg:text-5xl text-center text-2xl">
 					<h1 className="font-Cinzel ">Sangguniang Bayan Members </h1>
 				</div>
 
-				<div className=" flex flex-row justify-center gap-2 m-5 text-center	">
+				<div className=" flex lg:flex-row  flex-col justify-center gap-2 m-5 text-center items-center	">
 					{SBmembers?.map((item, key) => {
 						return (
 							<React.Fragment key={key}>
 								<div className="flex flex-row justify-center items-center">
-									<div className="">
+									<div className="flex flex-col justify-center items-center">
 										<img
 											className="w-72 h-72 object-contain"
 											src={item?.image}
@@ -186,7 +186,7 @@ const Officials = () => {
 					})}
 				</div>
 
-				<div className=" flex flex-row justify-center gap-2 m-5 text-center	">
+				<div className=" flex lg:flex-row  flex-col justify-center gap-2 m-5 text-center	">
 					{SBMembers?.map((item, key) => {
 						return (
 							<React.Fragment key={key}>
@@ -214,7 +214,7 @@ const Officials = () => {
 						);
 					})}
 				</div>
-				<div className=" flex flex-row justify-center gap-2 m-5 text-center	">
+				<div className=" flex lg:flex-row  flex-col justify-center gap-2 m-5 text-center	">
 					{SKmembers?.map((item, key) => {
 						return (
 							<React.Fragment key={key}>

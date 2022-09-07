@@ -157,7 +157,7 @@ const FullDisclosure = () => {
 							<div className="flex flex-row justify-center drop-shadow-lg  items-center p-3">
 								<div className="bg-white w-3/4 p-10 ">
 									<div className="font-Cinzel flex flex-row justify-between items-center  rounded-xl">
-										<div className=" justify-center items-center text-sm  ">
+										<div className="flex justify-center items-center text-sm  ">
 											<h1 className="font-Cinzel text-sm ">
 												<h2>{item?.name}</h2>
 											</h1>

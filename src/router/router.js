@@ -37,18 +37,18 @@ const MainRouter = () => {
 					>
 						<Route
 							index
-							element={<Navigate to="/bids-rewards/public-bidding" />}
+							element={<Navigate to="/bids-rewards/public-bid" />}
 						/>
 						<Route
-							path="bids-rewards/public-bidding"
+							path="/bids-rewards/public-bid"
 							element={<PublicBidding />}
 						/>
 						<Route
-							path="bids-rewards/small-value"
+							path="/bids-rewards/small-value"
 							element={<SmallValue />}
 						/>
 						<Route
-							path="bids-rewards/notice-of-awards"
+							path="/bids-rewards/notice-of-awards"
 							element={<NoticeOfAwards />}
 						/>
 					</Route>

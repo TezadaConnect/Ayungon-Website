@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import AyungonHeader from "../assets/AyungonHeader.png";
 
@@ -17,7 +17,17 @@ const routeInformation = [
   },
   {
     label: "About Town",
-    route: "about-town",
+    route: "#",
+    more: [
+      {
+        label: "Label-1",
+        route: "about-town",
+      },
+      {
+        label: "Label-2",
+        route: "officials",
+      },
+    ],
   },
   {
     label: "Offices",
@@ -29,8 +39,35 @@ const routeInformation = [
   },
 ];
 
+const classnameOne =
+  "cursor-pointer absolute bg-white w-full flex-col gap-2 hidden";
+
 const Navbar = () => {
   const navigate = useNavigate();
+  const drop = useRef([]);
+
+  const openDropDown = (index) => {
+    const div = drop.current[index];
+
+    if (div.className === classnameOne) {
+      div.className =
+        "cursor-pointer absolute bg-white w-full flex-col gap-2 flex";
+    } else {
+      div.className = classnameOne;
+    }
+  };
+
+  const removeSelected = () => {
+    // MAKE A MOCK ARRAY
+    // MODIFY CLASSNAME OF ALL INDEX
+
+    routeInformation.forEach((value, i) => {
+      if (value.route === "#") {
+        const div = drop?.current[i];
+        div.className = classnameOne;
+      }
+    });
+  };
   return (
     <div className="w-screen bg-green-600">
       <div className="flex lg:flex-row flex-col justify-between items-center w-10/12 m-auto">
@@ -51,16 +88,31 @@ const Navbar = () => {
       <div className="">
         <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-20 gap-5 font-Cinzel font bg-white drop-shadow-lg  p-3 ">
           {routeInformation?.map((item, key) => {
+            if (item.route !== "#") {
+              return (
+                <div
+                  key={key}
+                  className="cursor-pointer hover:scale-105 p-2"
+                  onClick={() => {
+                    removeSelected();
+                    navigate(item.route);
+                  }}
+                >
+                  {item.label}
+                </div>
+              );
+            }
+
             return (
-              <div
+              <DropDownComponent
                 key={key}
-                className="cursor-pointer hover:scale-105"
-                onClick={() => {
-                  navigate(item.route);
-                }}
-              >
-                {item.label}
-              </div>
+                item={item}
+                reference={drop}
+                iteration={key}
+                remove={removeSelected}
+                openDropDown={openDropDown}
+                navigate={navigate}
+              />
             );
           })}
         </div>
@@ -70,3 +122,64 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+const DropDownComponent = ({
+  item,
+  reference,
+  iteration,
+  remove,
+  openDropDown,
+  navigate,
+}) => {
+  useEffect(() => {
+    const checkIfClickedOutside = (e) => {
+      // If the menu is open and the clicked target is not within the menu, then close the menu
+      if (
+        reference.current[iteration] &&
+        !reference.current[iteration].contains(e.target)
+      ) {
+        remove(iteration);
+      }
+    };
+
+    document.addEventListener("mousedown", checkIfClickedOutside);
+
+    return () => {
+      // Cleanup the event listener
+      document.removeEventListener("mousedown", checkIfClickedOutside);
+    };
+    // eslint-disable-next-line
+  }, [reference]);
+
+  return (
+    <div className="relative">
+      <div
+        className="cursor-pointer hover:scale-105 p-2"
+        onClick={(e) => {
+          openDropDown(iteration);
+        }}
+      >
+        {item?.label}
+      </div>
+      <div
+        ref={(el) => (reference.current[iteration] = el)}
+        className="cursor-pointer absolute bg-white w-full flex-col gap-2 hidden"
+      >
+        {item?.more?.map((element, i) => {
+          return (
+            <div
+              key={i}
+              className="hover:bg-slate-200 p-2"
+              onClick={() => {
+                remove();
+                navigate(element.route);
+              }}
+            >
+              {element.label}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};

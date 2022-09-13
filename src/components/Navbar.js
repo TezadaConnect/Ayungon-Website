@@ -32,22 +32,14 @@ const routeInformation = [
 const Navbar = () => {
 	const navigate = useNavigate();
 	return (
-		<div className="w-screen bg-green-600">
-			<div className="flex lg:flex-row flex-col justify-between items-center w-10/12 m-auto">
+		<div className="w-screen bg-green-600 ">
+			<div className="flex lg:flex-row flex-col justify-between items-center w-screen">
 				<div>
 					<img
-						className="w-80 "
+						className="w-[550px] py-3 "
 						src={AyungonHeader}
 						alt=""
 					/>
-				</div>
-
-				<div className="p-3">
-					<h2 className="font-Cinzel flex flex-col lg:items-end items-center">
-						<span>Philippine Standard Time</span>
-						<br />
-						<span>Wednesday, August 29, 2022, 12:54:16 PM</span>
-					</h2>
 				</div>
 			</div>
 

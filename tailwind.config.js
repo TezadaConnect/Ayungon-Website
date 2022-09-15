@@ -17,6 +17,7 @@ module.exports = {
 				Cinzel: ['Cinzel', 'serif'],
 				SourceSansPro: ['Source Sans Pro', 'sans-serif'],
 				inter: ['Inter', 'sans-serif'],
+				GreatVibes: ['Great Vibes', 'cursive'],
 			},
 		},
 	},

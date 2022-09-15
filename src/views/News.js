@@ -22,7 +22,7 @@ const News = () => {
 				</div>
 			</div>
 
-			<div className="flex lg:flex-row flex-col justify-center   ">
+			<div className="flex lg:flex-row flex-col justify-center gap-6  ">
 				<div className="flex flex-col pt-7">
 					<a
 						rel="noreferrer"
@@ -36,9 +36,6 @@ const News = () => {
 					</a>
 				</div>
 				<div></div>
-				<div>
-					<SocialMediaPlugin />
-				</div>
 				<div className="pt-7 flex flex-col gap-5 ">
 					{VideoLinks?.map((item, index) => {
 						return (
@@ -54,6 +51,9 @@ const News = () => {
 							</div>
 						);
 					})}
+				</div>
+				<div>
+					<SocialMediaPlugin />
 				</div>
 			</div>
 		</div>

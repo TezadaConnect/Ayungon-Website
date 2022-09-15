@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Fade } from 'react-slideshow-image';
 import VolleyballClinic from '../assets/EventSlider/VolleyballClinic.jpg';
+import VolleyballClinic_2 from '../assets/EventSlider/VolleyballClinic_2.jpg';
 import YouthSports from '../assets/EventSlider/YouthSports.jpg';
 
 const Events = () => {
@@ -10,9 +11,14 @@ const Events = () => {
 			url: VolleyballClinic,
 			alt: 'VolleyballClinic',
 		},
+
 		{
 			url: YouthSports,
 			alt: 'YouthSports',
+		},
+		{
+			url: VolleyballClinic_2,
+			alt: 'VolleyballClinic_2',
 		},
 	];
 	// const septemberEvents = [

@@ -14,6 +14,10 @@ import News from '../views/News';
 import Projects from '../views/Projects';
 import Events from '../views/Events';
 import Location from '../views/Location';
+import History from '../views/AboutTownDropDown/History';
+import Culture from '../views/AboutTownDropDown/Culture';
+import Tradition from '../views/AboutTownDropDown/Tradition';
+
 const MainRouter = () => {
 	return (
 		<React.Fragment>
@@ -80,19 +84,19 @@ const MainRouter = () => {
 						path="/about-town"
 						element={<AboutTheTown />}
 					/>
-					{/* <Route
-							index
-							element={<Navigate to="/About-town/History" />}
-						/>
-						<Route
-							path="/About-town/History"
-							element={<History />}
-						/>
-						<Route
-							path="/About-town/Culture-and-Tradition"
-							element={<CulTrad />}
-						/>
-					</Route> */}
+					<Route
+						path="/about-town/history"
+						element={<History />}
+					/>
+					<Route
+						path="/about-town/culture"
+						element={<Culture />}
+					/>
+					<Route
+						path="/about-town/tradition"
+						element={<Tradition />}
+					/>
+
 					<Route
 						path="/offices"
 						element={<Offices />}

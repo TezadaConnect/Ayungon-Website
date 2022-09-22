@@ -37,7 +37,7 @@ const CarouselSlider = () => {
 			<Fade>
 				{fadeImages.map((fadeImage, index) => (
 					<div
-						className="each-fade"
+						className="each-fade "
 						key={index}
 					>
 						<div className="flex ">

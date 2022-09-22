@@ -15,6 +15,15 @@ const routeInformation = [
 		label: 'Bids and Awards',
 		route: 'bids-rewards',
 	},
+
+	{
+		label: 'Officials',
+		route: 'officials',
+	},
+	{
+		label: 'Offices',
+		route: 'offices',
+	},
 	{
 		label: 'About Town',
 		route: '#',
@@ -31,20 +40,16 @@ const routeInformation = [
 				label: 'Tradition',
 				route: '/about-town/tradition',
 			},
+			{
+				label: 'Barangays',
+				route: '/about-town/barangays',
+			},
 		],
-	},
-	{
-		label: 'Offices',
-		route: 'offices',
-	},
-	{
-		label: 'Officials',
-		route: 'officials',
 	},
 ];
 
 const classnameOne =
-	'cursor-pointer absolute bg-white w-full flex-col gap-2 hidden';
+	'cursor-pointer absolute bg-white w-full flex-col gap-2 hidden z-0';
 
 const Navbar = () => {
 	const navigate = useNavigate();
@@ -55,7 +60,7 @@ const Navbar = () => {
 
 		if (div.className === classnameOne) {
 			div.className =
-				'cursor-pointer absolute bg-white w-full flex-col gap-2 flex';
+				'cursor-pointer absolute bg-white w-full flex-col gap-2 flex ';
 		} else {
 			div.className = classnameOne;
 		}
@@ -73,8 +78,8 @@ const Navbar = () => {
 		});
 	};
 	return (
-		<div className="w-screen bg-green-600">
-			<div className="flex lg:flex-row flex-col justify-between items-center w-10/12 m-auto">
+		<div className="w-screen bg-green-600 ">
+			<div className="flex lg:flex-row flex-col justify-between items-center w-10/12 m-auto ">
 				<div className="p-2">
 					<img
 						className="w-[550px] "
@@ -94,13 +99,13 @@ const Navbar = () => {
 
 			{/* Navigation bar */}
 			<div className="">
-				<div className="flex lg:flex-row flex-col justify-center items-center lg:gap-20 gap-5 font-Cinzel font bg-white drop-shadow-lg  p-3 ">
+				<div className="flex lg:flex-row flex-col justify-center items-center lg:gap-20 gap-3 font-Cinzel font bg-white drop-shadow-lg  p-3 ">
 					{routeInformation?.map((item, key) => {
 						if (item.route !== '#') {
 							return (
 								<div
 									key={key}
-									className="cursor-pointer hover:scale-105 p-2"
+									className="cursor-pointer hover:scale-105 p-2 "
 									onClick={() => {
 										removeSelected();
 										navigate(item.route);
@@ -160,7 +165,7 @@ const DropDownComponent = ({
 	}, [reference]);
 
 	return (
-		<div className="relative">
+		<div className="relative text-center w-auto">
 			<div
 				className="cursor-pointer hover:scale-105 p-2"
 				onClick={(e) => {
@@ -169,15 +174,16 @@ const DropDownComponent = ({
 			>
 				{item?.label}
 			</div>
+
 			<div
 				ref={(el) => (reference.current[iteration] = el)}
-				className="cursor-pointer absolute bg-white w-full flex-col gap-2 hidden"
+				className="  cursor-pointer absolute bg-white  flex-col gap-5 hidden"
 			>
 				{item?.more?.map((element, i) => {
 					return (
 						<div
 							key={i}
-							className="hover:bg-slate-200 p-2"
+							className="hover:bg-slate-200 p-2  "
 							onClick={() => {
 								remove();
 								navigate(element.route);

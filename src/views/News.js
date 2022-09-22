@@ -36,7 +36,10 @@ const News = () => {
 					</a>
 				</div>
 				<div></div>
-				<div className="pt-7 flex flex-col gap-5 ">
+				<div className="pt-7 flex flex-col gap-5 font-serif ">
+					<h1 className="flex justify-center items-center uppercase font-bold text-lg">
+						Youtube Updates
+					</h1>
 					{VideoLinks?.map((item, index) => {
 						return (
 							<div

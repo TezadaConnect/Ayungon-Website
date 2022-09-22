@@ -17,6 +17,9 @@ import Location from '../views/Location';
 import History from '../views/AboutTownDropDown/History';
 import Culture from '../views/AboutTownDropDown/Culture';
 import Tradition from '../views/AboutTownDropDown/Tradition';
+import Barangays from '../views/AboutTownDropDown/Barangays';
+import OfficeoftheMayor from '../views/OfficesDropDown/OfficeOfthe_Mayor';
+import TourismOffice from '../views/OfficesDropDown/TourismOffice';
 
 const MainRouter = () => {
 	return (
@@ -80,6 +83,33 @@ const MainRouter = () => {
 							element={<NoticeOfAwards />}
 						/>
 					</Route>
+
+					<Route
+						path="/officials"
+						element={<Officials />}
+					>
+						<Route
+							index
+							element={<Navigate to="/home" />}
+						/>
+					</Route>
+					<Route
+						path="/offices"
+						element={<Offices />}
+					>
+						<Route
+							index
+							element={<Navigate to="/offices/office-of-the-mayor" />}
+						/>
+						<Route
+							path="/offices/office-of-the-mayor"
+							element={<OfficeoftheMayor />}
+						/>
+						<Route
+							path="/offices/tourism-office"
+							element={<TourismOffice />}
+						/>
+					</Route>
 					<Route
 						path="/about-town"
 						element={<AboutTheTown />}
@@ -96,20 +126,10 @@ const MainRouter = () => {
 						path="/about-town/tradition"
 						element={<Tradition />}
 					/>
-
 					<Route
-						path="/offices"
-						element={<Offices />}
+						path="/about-town/barangays"
+						element={<Barangays />}
 					/>
-					<Route
-						path="/officials"
-						element={<Officials />}
-					>
-						<Route
-							index
-							element={<Navigate to="/home" />}
-						/>
-					</Route>
 				</Route>
 			</Routes>
 		</React.Fragment>

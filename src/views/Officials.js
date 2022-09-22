@@ -22,7 +22,7 @@ const Mayors = [
 		name: 'Hon. Dennis N. Amancio',
 		image: MayorDennis,
 		alter: 'MayorDennis',
-		title: 'MAYOR',
+		title: 'Local Chief Executive',
 	},
 	{
 		name: 'Hon. Nelda A. Favillaran',

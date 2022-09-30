@@ -310,8 +310,18 @@ const History = () => {
 							</div>
 						</div>
 					</div>
-					<div className="lg:flex hidden w-2/12 bg-slate-200">
-						<div className="flex justify-center ">Mayors Of Ayungon</div>
+					<div className="lg:flex hidden w-2/12  justify-center  pt-24">
+						<div className="flex flex-col">
+							<div className="text-xl justify-center flex font-bold font-serif uppercase">
+								<h1>Offices</h1>
+							</div>
+							<div>
+								<ul className="cursor-pointer pt-5 text-lg gap-5">
+									<li className="hover:scale-105">Toursim Office</li>
+									<li className="hover:scale-105">Mayor's Office</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import AyungonHeader from '../assets/AyungonHeader.png';
+import AbanteAyungon from '../assets/AbanteAyungon.png';
 
 const routeInformation = [
 	{
@@ -20,10 +21,7 @@ const routeInformation = [
 		label: 'Officials',
 		route: 'officials',
 	},
-	{
-		label: 'Offices',
-		route: 'offices',
-	},
+	// x`
 	{
 		label: 'About Town',
 		route: '#',
@@ -89,29 +87,31 @@ const Navbar = () => {
 				</div>
 
 				<div className="p-3">
-					<h2 className="font-Cinzel flex flex-col lg:items-end items-center">
-						<span>Philippine Standard Time</span>
-						<br />
-						<span>Wednesday, August 29, 2022, 12:54:16 PM</span>
-					</h2>
+					<div>
+						<img
+							className="w-52"
+							src={AbanteAyungon}
+							alt="AbanteAyungon"
+						/>
+					</div>
 				</div>
 			</div>
 
 			{/* Navigation bar */}
 			<div className="">
-				<div className="flex lg:flex-row flex-col justify-center items-center lg:gap-20 gap-3 font-Cinzel font bg-white drop-shadow-lg  p-3 ">
+				<div className="flex lg:flex-row flex-col justify-center  items-center lg:gap-20 gap-3 font-Cinzel font bg-white drop-shadow-lg  p-3 ">
 					{routeInformation?.map((item, key) => {
-						if (item.route !== '#') {
+						if (item?.route !== '#') {
 							return (
 								<div
 									key={key}
 									className="cursor-pointer hover:scale-105 p-2 "
 									onClick={() => {
 										removeSelected();
-										navigate(item.route);
+										navigate(item?.route);
 									}}
 								>
-									{item.label}
+									{item?.label}
 								</div>
 							);
 						}
@@ -165,7 +165,7 @@ const DropDownComponent = ({
 	}, [reference]);
 
 	return (
-		<div className="relative text-center w-auto">
+		<div className="relative text-center w-auto z-20	 ">
 			<div
 				className="cursor-pointer hover:scale-105 p-2"
 				onClick={(e) => {
@@ -177,7 +177,7 @@ const DropDownComponent = ({
 
 			<div
 				ref={(el) => (reference.current[iteration] = el)}
-				className="  cursor-pointer absolute bg-white  flex-col gap-5 hidden"
+				className="  cursor-pointer absolute bg-white  flex-col gap-5 hidden "
 			>
 				{item?.more?.map((element, i) => {
 					return (

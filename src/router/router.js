@@ -96,20 +96,8 @@ const MainRouter = () => {
 					<Route
 						path="/offices"
 						element={<Offices />}
-					>
-						<Route
-							index
-							element={<Navigate to="/offices/office-of-the-mayor" />}
-						/>
-						<Route
-							path="/offices/office-of-the-mayor"
-							element={<OfficeoftheMayor />}
-						/>
-						<Route
-							path="/offices/tourism-office"
-							element={<TourismOffice />}
-						/>
-					</Route>
+					/>
+
 					<Route
 						path="/about-town"
 						element={<AboutTheTown />}
@@ -129,6 +117,15 @@ const MainRouter = () => {
 					<Route
 						path="/about-town/barangays"
 						element={<Barangays />}
+					/>
+
+					<Route
+						path="/offices/mayors-office"
+						element={<OfficeoftheMayor />}
+					/>
+					<Route
+						path="/office/tourism-office"
+						element={<TourismOffice />}
 					/>
 				</Route>
 			</Routes>

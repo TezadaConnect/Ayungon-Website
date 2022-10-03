@@ -33,7 +33,7 @@ const fadeImages = [
 
 const CarouselSlider = () => {
 	return (
-		<div className="w-screen">
+		<div className="w-screen z-10">
 			<Fade>
 				{fadeImages.map((fadeImage, index) => (
 					<div

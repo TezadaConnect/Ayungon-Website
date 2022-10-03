@@ -99,7 +99,7 @@ const Navbar = () => {
 
 			{/* Navigation bar */}
 			<div className="">
-				<div className="flex lg:flex-row flex-col justify-center  items-center lg:gap-20 gap-3 font-Cinzel font bg-white drop-shadow-lg  p-3 ">
+				<div className="flex lg:flex-row flex-col justify-center  items-center lg:gap-20 gap-3 font-Cinzel font bg-white drop-shadow-lg  p-3 z-20">
 					{routeInformation?.map((item, key) => {
 						if (item?.route !== '#') {
 							return (

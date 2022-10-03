@@ -23,7 +23,7 @@ const News = () => {
 			</div>
 
 			<div className="flex lg:flex-row flex-col justify-center gap-6  ">
-				<div className="flex flex-col pt-7">
+				<div className="flex flex-col pt-7 ">
 					<a
 						rel="noreferrer"
 						target="_blank"
@@ -43,10 +43,11 @@ const News = () => {
 					{VideoLinks?.map((item, index) => {
 						return (
 							<div
-								className=" pb-10"
+								className=" pb-10 flex justify-center"
 								key={index}
 							>
 								<Iframe
+									className="lg:w-80"
 									width={item?.width}
 									height={item?.height}
 									src={item?.src}

@@ -9,55 +9,81 @@ import RECARDO_GARCIA from '../../assets/Mayors/RECARDO_GARCIA.jpg';
 import NENIMICO_ENARDECIDO from '../../assets/Mayors/NENIMICO_ENARDECIDO.jpg';
 import MARTIN_GAROL from '../../assets/Mayors/MARTIN_GAROL.jpg';
 import LORENZO_DY from '../../assets/Mayors/LORENZO_DY.jpg';
+import EdselEnardecido from '../../assets/Mayors/EdselEnardecido.jpeg';
+import ErwinAgustino from '../../assets/Mayors/ErwinAgustino.jpeg';
 const History = () => {
 	const mayors = [
 		{
 			image: MAXIMO_ENARDECIDO,
 			alt: 'MAXIMO_ENARDECIDO',
-			name: 'Maximo Enardecido',
+			name: 'Mayor Maximo Enardecido',
 			year: '1940-1951',
 		},
 		{
 			image: JUAN_TABURAZA,
 			alt: 'JUAN_TABURAZA',
-			name: 'Juan Taburaza',
+			name: 'Mayor Juan Taburaza',
 			year: '1951-1959',
 		},
 		{
 			image: IRENEO_TUBIO,
 			alt: 'IRENEO_TUBIO',
-			name: 'Ireneo Tubio',
+			name: 'Mayor Ireneo Tubio',
 			year: '1959-1963',
 		},
 		{
 			image: MARTIN_GAROL,
 			alt: 'MARTIN_GAROL',
-			name: 'Martin Garol Jr.',
+			name: 'Mayor Martin Garol Jr.',
 			year: '1963-1967',
 		},
 		{
 			image: RECARDO_GARCIA,
 			alt: 'RECARDO_GARCIA',
-			name: 'Rcardo Garcia',
+			name: 'Mayor Rcardo Garcia',
 			year: '1967-1977',
 		},
 		{
 			image: NENIMICO_ENARDECIDO,
 			alt: 'NENIMICO_ENARDECIDO',
-			name: 'Nenimico Enardecido',
+			name: 'Mayor Nenimico Enardecido',
 			year: '1977-1986',
 		},
 		{
 			image: MARTIN_GAROL,
 			alt: 'MARTIN_GAROL',
-			name: 'Martin Garol Jr.',
+			name: 'Mayor Martin Garol Jr.',
 			year: '1986-1988',
 		},
 		{
 			image: LORENZO_DY,
 			alt: 'LORENZO_DY',
-			name: 'Lorenzo C. Dy ',
+			name: 'Mayor Lorenzo C. Dy ',
 			year: '1988-1998',
+		},
+		{
+			image: EdselEnardecido,
+			alt: 'EdselEnardecido',
+			name: 'Mayor Edsel Enardecido ',
+			year: '1998-2007',
+		},
+		{
+			image: ErwinAgustino,
+			alt: 'ErwinAgustino ',
+			name: 'Mayor Erwin Agustino  ',
+			year: '2007-2010',
+		},
+		{
+			image: EdselEnardecido,
+			alt: 'EdselEnardecido',
+			name: 'Mayor Edsel Enardecido ',
+			year: '2010-2019',
+		},
+		{
+			image: ErwinAgustino,
+			alt: 'ErwinAgustino ',
+			name: 'Mayor Erwin Agustino  ',
+			year: '2019-2022',
 		},
 	];
 	return (

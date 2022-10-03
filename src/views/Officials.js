@@ -107,16 +107,16 @@ const Officials = () => {
 	return (
 		<div>
 			{/* Ayungon Logo */}
-			<div className="flex flex-col itme bg-slate-200 w-10/12 m-auto pb-36">
-				<div className="flex flex-col  items-center bg-green-600 lg:justify-start justify-center  p-2">
+			<div className="flex flex-col itme bg-slate-200 w-[1267px]  m-auto pb-36">
+				<div className="flex flex-col  items-center bg-hero-pattern bg-cover bg-no-repeat drop-shadow-lg w-[1267px] h-[330px] lg:justify-start justify-center  p-2">
 					<div className="flex lg:justify-start justify-center items-center text-center">
 						<img
-							className="w-40"
+							className="w-40 "
 							src={ayungonLogo}
 							alt="Ayungon Logo"
 						/>
 					</div>
-					<div className="flex  pt-5 font-Cinzel text-center font-bold lg:text-4xl text-2xl	 flex-col  items-center">
+					<div className="flex  pt-5 font-Cinzel text-center font-bold lg:text-4xl text-2xl 	 flex-col  items-center">
 						<h1>Municipality Of Ayungon</h1>
 						<h1>Officials</h1>
 					</div>

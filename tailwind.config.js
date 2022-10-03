@@ -19,6 +19,9 @@ module.exports = {
 				inter: ['Inter', 'sans-serif'],
 				GreatVibes: ['Great Vibes', 'cursive'],
 			},
+			backgroundImage: {
+				'hero-pattern': "url('./assets/bgimg.jpg')",
+			},
 		},
 	},
 	plugins: [],

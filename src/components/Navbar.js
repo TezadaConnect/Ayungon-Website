@@ -44,7 +44,7 @@ const Navbar = () => {
 				<div className="p-3">
 					<div>
 						<img
-							className="w-52"
+							className="w-52 drop-shadow-2xl"
 							src={AbanteAyungon}
 							alt="AbanteAyungon"
 						/>
@@ -54,7 +54,7 @@ const Navbar = () => {
 
 			{/* Navigation bar */}
 			<div className="">
-				<div className="flex lg:flex-row flex-col justify-center  items-center lg:gap-20 gap-3 font-Cinzel font bg-white drop-shadow-lg p-3 z-20">
+				<div className="flex lg:flex-row flex-col justify-center uppercase  items-center lg:gap-20 gap-3 font-Cinzel text-sm bg-white drop-shadow-lg p-3 z-20">
 					{routeInformation?.map((item, key) => {
 						return (
 							<div
@@ -105,6 +105,16 @@ export const DropBarNavigation = () => {
 			route: '/about-town/barangays',
 		},
 	];
+	const Offices = [
+		{
+			label: "Mayor's Office",
+			route: '/offices/mayors-office',
+		},
+		{
+			label: 'Tourism Office',
+			route: '/office/tourism-office',
+		},
+	];
 
 	const navigate = useNavigate();
 
@@ -141,7 +151,7 @@ export const DropBarNavigation = () => {
 							<h1>Offices</h1>
 						</div>
 						<div className="w-9/12 m-auto grid grid-rows-3 lg:grid-flow-col justify-start g pt-2 font-Cinzel">
-							{more?.map((item, i) => {
+							{Offices?.map((item, i) => {
 								return (
 									<div
 										key={i}

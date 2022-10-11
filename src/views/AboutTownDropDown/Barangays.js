@@ -10,6 +10,10 @@ import brgyTambo from '../../assets/BarangaysEdited/brgyTambo.jpg';
 import brgyTibyawan from '../../assets/BarangaysEdited/brgyTibyawan.jpg';
 import brgyAmdus from '../../assets/BarangaysEdited/brgyAmdus.jpg';
 import brgyAtabay from '../../assets/BarangaysEdited/brgyAtabay.jpg';
+import brgyMabato from '../../assets/BarangaysEdited/brgyMabato.jpg';
+import brgyCarolan from '../../assets/BarangaysEdited/brgyCarolan.jpg';
+import brgyNabhang from '../../assets/BarangaysEdited/brgyNabhang.jpg';
+import brgyBanban from '../../assets/BarangaysEdited/brgyBanban.jpg';
 const Barangays = () => {
 	const barangays = [
 		{
@@ -62,11 +66,11 @@ const Barangays = () => {
 				'Long ago during the Spanish times there were very few habitants in this place. It was known that magahats came down the mountain to watch people who dared pass the trails because they (magahats) would rob ana kill them. This was first named Mabini but Later Lt waS changed to because of the incident of Bulalakaws wife whose necklace was taken away by the crab and hid under the stone. Bulalakaw upon seeing this went after the crab but it went under the stone. Bulalakaw could not lift the stone so he chiseled it in search or the crab with the necklace but ne could not find it. Instead water came out of the hole of the stone. That was how Ilabini was changed to Tiguib meaning chisel.',
 		},
 		{
-			name: 'BARANGAY TAMBO',
-			image: brgyTambo,
-			alt: 'brgyTambo',
+			name: 'BARANGAY ATABAY',
+			image: brgyAtabay,
+			alt: 'brgyAtabay',
 			caption:
-				'-	Since the Spanish occupation, the official name of the barrio is ambo. Due to a certain grass which grows on the lowlands of the barrio called Tambo, the early inhabitants of the place called it Tambo until the present time. The sitios comprising the barrio are Kamandagan, Cabot, Amaga, Dalamo, Busay, Abong, and Libas. During the Spanish time, there were few families residing in the barrio, but because of the fertile lands which the barrio has, it has attracted many families to work in the fertile lands. At present there are eighty families residing in the barrio. The earliest tenientes of the barrio, since it was organized were Gregorio Tiongko, Feliciano Bolongaita, Francisco Malipaonon and Constancio Serrenio',
+				'It is a slightly hilly place two and a half kilometers above the town of Ayungon. Its view could be seen of we stand along the road. It has a grassy plain about one and a half hectares where in the school is built. Actually, trees could be seen around, thus adding to the beauty of the spot.When or whom was it organized is uncertain. But according to the facts I gathered from the people, this place a long time ago was just merely a spot not very much known to the people. One of those inhabited the place was Gelano Impiel. He was the leader of the few Inhabitants. He thought of cutting down big trees and making it into kaingin. He planted corn and rice, vegetables coconuts and fruit trees. Soon the other inhabitants followed him. They made kaingin and planted the same crops that Galeno Impiel planted. It was not long after that the forest spot was converted to big corn fields and rice fields with fruit trees around. It yielded much and good crops. For many years the early people cultivated the same lot. At first it gave them a good harvest but as years rolled on, though big their fields were but the yield was very much less. This was because the soil was not fertile anymore. So, the people neglected it. Soon the cogon grass spread to grow all over, and so until now the place is wide grassy land. The descendant of Gelano Impiel multiplied a number and presently some of the people have inherited the blood of that early ancestor. However, the surname Impiel is totally ignored.',
 		},
 		{
 			name: 'BARANGAY TIBYAWAN',
@@ -83,11 +87,40 @@ const Barangays = () => {
 				'The present official name of the barrio comprises the sitios of Mansuso, Kutad, Gabon and Manhunoghunog is AMDOS. This is how the place got its name. A long time ago there lived this place a wealthy farmer whose name was Pablo. He was commonly called by the lowlanders and by the people in the neighborhood as Amboy Ducia due to the fact that his wife’s name was Teoducia. When one of the lowlanders wished to buy corn, he would sat to his son “Go to Amboy Ducia and bus some corn”. When the son was asked by someone on the way where he was going he would say to Amboy Ducia or from Amboy Ducia if asked where he was from. At last the place was called Amdos for short after the name of Amboy Ducia when he died.',
 		},
 		{
-			name: 'BARANGAY ATABAY',
-			image: brgyAtabay,
-			alt: 'brgyAtabay',
+			name: 'BARANGAY TAMBO',
+			image: brgyTambo,
+			alt: 'brgyTambo',
 			caption:
-				'It is a slightly hilly place two and a half kilometers above the town of Ayungon. Its view could be seen of we stand along the road. It has a grassy plain about one and a half hectares where in the school is built. Actually, trees could be seen around, thus adding to the beauty of the spot.When or whom was it organized is uncertain. But according to the facts I gathered from the people, this place a long time ago was just merely a spot not very much known to the people. One of those inhabited the place was Gelano Impiel. He was the leader of the few Inhabitants. He thought of cutting down big trees and making it into kaingin. He planted corn and rice, vegetables coconuts and fruit trees. Soon the other inhabitants followed him. They made kaingin and planted the same crops that Galeno Impiel planted. It was not long after that the forest spot was converted to big corn fields and rice fields with fruit trees around. It yielded much and good crops. For many years the early people cultivated the same lot. At first it gave them a good harvest but as years rolled on, though big their fields were but the yield was very much less. This was because the soil was not fertile anymore. So, the people neglected it. Soon the cogon grass spread to grow all over, and so until now the place is wide grassy land. The descendant of Gelano Impiel multiplied a number and presently some of the people have inherited the blood of that early ancestor. However, the surname Impiel is totally ignored.',
+				'Since the Spanish occupation, the official name of the barrio is ambo. Due to a certain grass which grows on the lowlands of the barrio called Tambo, the early inhabitants of the place called it Tambo until the present time. The sitios comprising the barrio are Kamandagan, Cabot, Amaga, Dalamo, Busay, Abong, and Libas. During the Spanish time, there were few families residing in the barrio, but because of the fertile lands which the barrio has, it has attracted many families to work in the fertile lands. At present there are eighty families residing in the barrio. The earliest tenientes of the barrio, since it was organized were Gregorio Tiongko, Feliciano Bolongaita, Francisco Malipaonon and Constancio Serrenio',
+		},
+
+		{
+			name: 'BARANGAY MABATO',
+			image: brgyMabato,
+			alt: 'brgyMabato',
+			caption:
+				'Since the Spanish occupation, the official name of the barrio is ambo. Due to a certain grass which grows on the lowlands of the barrio called Tambo, the early inhabitants of the place called it Tambo until the present time. The sitios comprising the barrio are Kamandagan, Cabot, Amaga, Dalamo, Busay, Abong, and Libas. During the Spanish time, there were few families residing in the barrio, but because of the fertile lands which the barrio has, it has attracted many families to work in the fertile lands. At present there are eighty families residing in the barrio. The earliest tenientes of the barrio, since it was organized were Gregorio Tiongko, Feliciano Bolongaita, Francisco Malipaonon and Constancio Serrenio',
+		},
+		{
+			name: 'BARANGAY BANBAN',
+			image: brgyBanban,
+			alt: 'brgyBanban',
+			caption:
+				'The present official and popular name of the barrio is Banban. As far as its history and origin is concerned, the name has not been changed ever since the time of the Spaniards when provinces, towns and barrios and sitios were first politically organized and even during the pre-Spanish period. Dating back to the time when the barangay was then the form of government the name was already known as Banban. But then it was yet a sitio in the midst of wilderness. The place was a hunting ground of fierce and wild animals. Even now wild animals such as deer, wild pigs and wild chickens are still abounding the area. The piece was seldom reached by civilized people except by brave hunters and men who used to gather rattan and other forest products. It was then largely a forestall region with some cogonal areas. The first people who inhabited the area were the Negritos who lived on hunting wild animals and wild roots as well as camotes, gabi, ube and other root crops they raised from their little clearing or “Kaingin”. These people gradually disappeared at the coming of the Spaniards. Yet until now there are still remnants of the race whom could be traced clearly as of the Negrito blood and characteristics.The barrio was originally derived from certain plant called “Banban” which is a good raw material for making baskets and the like. This plant abounded the whole area in the forests, amidst the hills and valleys and along the river banks. But the whole barrio is at present popularly named after the Banban river itself which is crossing the plains and valleys of the barrio some kilometers away from its source to Hilabangan River which flows down to Ilog River in Negros Occidental.Banban is approximately eighteen kilometers form then town of Ayungon, Negros Oriental. Hiking up and westward to the hinterland from the town, one can reach the place in five to six hours at a regular rate. The ways are passable by horses, carabaos and other animals as well as by men. No good roads through which trucks, automobiles, bicycles, and other vehicles may pass, ever connect from ayungon to Banban except the narrow trails.',
+		},
+		{
+			name: 'BARANGAY NABHANG',
+			image: brgyNabhang,
+			alt: 'brgyNabhang',
+			caption:
+				'Nabhang lies in the western boundary of Negros Oriental. It lies north of Carol-an and west of Banban. It is situated among broken hills. It has short rivers and a valuable forest. IN its fertile soil thrive rice, corn, abaca, coconut trees and various kinds of roots crops. The climate is fairly good and bracing.Nabhan got its name originally from a hill. In this hill was a slope and in it lived the first inhabitant’s many years ago. This hill offered a beautiful vista. In the south the gloomy part of the Carol-an could be seen and in the north beautiful panorama of the Bontoc hill overlooking Hilabangan river and the vast plains of Kabangkalan, Negros Occidental could be seen too. Thus, the first inhabitants had chosen the place to live in. They called the place “Nalub-ang” meaning slope. But as they spoke in a hurry it came to be known as Nabhang',
+		},
+		{
+			name: 'BARANGAY CAROL-AN',
+			image: brgyCarolan,
+			alt: 'brgyCarolan',
+			caption:
+				' A barrio is situated among broken hills along the Carol a River. The climate is almost the same to that of the lowlands. It is bounded by on the It lies in the western limit of Ayungon and it is approximately thirty kilometers from the town. It is named after the river, but there is no enough reliable sources of information, why the river is named so. Among the many legends that I had gathered this might be nearly the origin.  Long - long time ago, families lived by clans. This place had been inhabited by many clans. Each clan had to fence their homes with the different kinds of sharp things to protect them from the sudden attacked of savage people. The savage people were called Magahats. Magahats were people who had incurred so much griefs on due to some distress in the family, especially death. The able-bodied men and women of the diseased would armed themselves, then roamed around the vicinity or go to neighboring places to kill other persons for revenge. Magahats during those days rambled along the river. In most cases one group of Magahats met another group as they met, they fought against one another. There were also instances that the Magahats were hunted by those who were not Magahats as they met, they too, fought against each other.',
 		},
 	];
 	return (
@@ -111,7 +144,7 @@ const Barangays = () => {
 
 								<div className="p-5">
 									<div className="font-Cinzel font-bold text-4xl flex justify-center pl-10 ">
-										{item?.name}
+										<u>{item?.name}</u>
 									</div>
 									<p className="px-40 pt-2  text-justify font-serif text-lg">
 										{item?.caption}

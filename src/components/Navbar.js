@@ -31,7 +31,7 @@ const routeInformation = [
 const Navbar = () => {
 	const navigate = useNavigate();
 	return (
-		<div className="w-screen bg-green-600 ">
+		<div className="w-screen bg-green-600">
 			<div className="flex lg:flex-row flex-col justify-between items-center w-10/12 m-auto ">
 				<div className="p-2">
 					<img

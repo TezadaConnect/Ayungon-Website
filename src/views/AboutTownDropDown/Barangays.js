@@ -10,10 +10,16 @@ import brgyTambo from '../../assets/BarangaysEdited/brgyTambo.jpg';
 import brgyTibyawan from '../../assets/BarangaysEdited/brgyTibyawan.jpg';
 import brgyAmdus from '../../assets/BarangaysEdited/brgyAmdus.jpg';
 import brgyAtabay from '../../assets/BarangaysEdited/brgyAtabay.jpg';
-import brgyMabato from '../../assets/BarangaysEdited/brgyMabato.jpg';
+
 import brgyCarolan from '../../assets/BarangaysEdited/brgyCarolan.jpg';
 import brgyNabhang from '../../assets/BarangaysEdited/brgyNabhang.jpg';
 import brgyBanban from '../../assets/BarangaysEdited/brgyBanban.jpg';
+import brgyGomentoc from '../../assets/BarangaysEdited/brgyGomentoc.jpg';
+import brgyJandalamanon from '../../assets/BarangaysEdited/brgyJandalamanon.jpg';
+import brgyMaaslum from '../../assets/BarangaysEdited/brgyMaaslum.jpg';
+import brgyCandanaay from '../../assets/BarangaysEdited/brgyCandanaay.jpg';
+import brgyInacban from '../../assets/BarangaysEdited/brgyInacban.jpg';
+import brgyKilaban from '../../assets/BarangaysEdited/brgyKilaban.jpg';
 const Barangays = () => {
 	const barangays = [
 		{
@@ -95,13 +101,6 @@ const Barangays = () => {
 		},
 
 		{
-			name: 'BARANGAY MABATO',
-			image: brgyMabato,
-			alt: 'brgyMabato',
-			caption:
-				'Since the Spanish occupation, the official name of the barrio is ambo. Due to a certain grass which grows on the lowlands of the barrio called Tambo, the early inhabitants of the place called it Tambo until the present time. The sitios comprising the barrio are Kamandagan, Cabot, Amaga, Dalamo, Busay, Abong, and Libas. During the Spanish time, there were few families residing in the barrio, but because of the fertile lands which the barrio has, it has attracted many families to work in the fertile lands. At present there are eighty families residing in the barrio. The earliest tenientes of the barrio, since it was organized were Gregorio Tiongko, Feliciano Bolongaita, Francisco Malipaonon and Constancio Serrenio',
-		},
-		{
 			name: 'BARANGAY BANBAN',
 			image: brgyBanban,
 			alt: 'brgyBanban',
@@ -121,6 +120,48 @@ const Barangays = () => {
 			alt: 'brgyCarolan',
 			caption:
 				' A barrio is situated among broken hills along the Carol a River. The climate is almost the same to that of the lowlands. It is bounded by on the It lies in the western limit of Ayungon and it is approximately thirty kilometers from the town. It is named after the river, but there is no enough reliable sources of information, why the river is named so. Among the many legends that I had gathered this might be nearly the origin.  Long - long time ago, families lived by clans. This place had been inhabited by many clans. Each clan had to fence their homes with the different kinds of sharp things to protect them from the sudden attacked of savage people. The savage people were called Magahats. Magahats were people who had incurred so much griefs on due to some distress in the family, especially death. The able-bodied men and women of the diseased would armed themselves, then roamed around the vicinity or go to neighboring places to kill other persons for revenge. Magahats during those days rambled along the river. In most cases one group of Magahats met another group as they met, they fought against one another. There were also instances that the Magahats were hunted by those who were not Magahats as they met, they too, fought against each other.',
+		},
+		{
+			name: 'BARANGAY GOMENTOC',
+			image: brgyGomentoc,
+			alt: 'brgyGomentoc',
+			caption:
+				'Formerly Gomentoc was named La Ponaya . This was later changed to Gomentoc for the Spaniards found many leeches in this place. The first inhabitants were the Negritoes. As the Negritoes were free loving people, they fled to the mountains. They did not like to be ruled by the Spaniards. At present not, a single Negrito is found in this place. The people in Gomentoc came from other places especially from Taboc , Cebu .',
+		},
+		{
+			name: 'BARANGAY JANDALAMANON',
+			image: brgyJandalamanon,
+			alt: 'brgyJandalamanon',
+			caption:
+				'-	Among rugged hills and steep ravines , lies Handalamanon , a barrio of the municipality of Ayungon , Province of Negros Oriental . This region is mostly vegetated with cogon grass . Because its soil is not so fertile only few people inhabit this place . Besides there is no level land that could be found on it . There are no good roads . Only trails , almost covered with cogon leaves and stones , passing up and down the steep hills , are available . Handalamanon could be reached on foot in one and a half hours travel from the town . Horses and other kinds of animals for travel are rarely used for the trails are dangerous to them . The barrio of Handalamanon consists of the sitios of Polog , Ponglo , Ilaya Cabungan , Cangtukdan , Bolos , Otaw , Nagba , Hasa - an , Caibyokan , all these names are derived from the names of brooks and creeks that run down between the hills . Caibyokan got its name from a kind of palm called " ibyok " in the dialect that grew numerously in this region . Ponglo is derived from a big rock that lies on the top of the hill which is supposed to be the abode of witches , " Onglo " in the dialect .',
+		},
+		{
+			name: 'BARANGAY MAASLUM',
+			image: brgyMaaslum,
+			alt: 'brgyMaaslum',
+			caption:
+				'The present official name is Maaslum which comprises the sitios of Mambago, Manug, pagsalsalan, Binatean and Pinangcotan. Cangtagaotao, Kapayas, Mangalotalot, he barrio get its name from the water of the river which taste sour, which means (ASLUM) in Visayan. It was originally named by certain trader who first came to the barrio to sell his wares and upon being asked where he had been he answered from Maaslum, hence the barrio had béen officially known by such name. Sitio Camponay was named after the bird PONAY which were plentiful in said place long ago. Mambago was named after the tree called BAGO the leaves of which are edible. It was abundant in the place that they named the sitio after said tree. MANUG was named after the big poisonous snake which was believed to live in the forest along the creek. CANGTAGAOTAO was named so because formerly the place was all cogonal and uninhabited. When a person walks aloe, he feels lonely and solitary that when a person sees him in the distant he appears as if he walks among sea waves for he can be seen and then disappear among the cogon grass (Nagtagaotagao) which means alone and disappearing. KAPAYAS was named after a tree which grow on the summit of the hill, which looks like a papaya tree. Mangalotalot is known by such name because the hill appears at the distant to have new hair cut (ALOT) for the grass does not grow tall and no trees can be found there for the hill contains Sulphur and vegetation does not grow well because of the mineral. PINANGCOTAN was known because long time ago bandits used to watch and ambushed travelers in said place and cut off their necks (PANGOT) with sharp bolos, hence the sitio has been known PINANGOTAN or place for neck cutting. BINATCAN was named such because in said place there is a spring which does not dry up even during hot season. The name derives from the word BINAS-AN or wet place and later to Binatcan.',
+		},
+		{
+			name: 'BARANGAY CANDANA-AY',
+			image: brgyCandanaay,
+			alt: 'brgyCandanaay',
+			caption:
+				'Inacban is the present official name of the barrio. The name Inacban of this barrio had been popular since the first group of inhabitants inhabited the place. Its name is derived from a stone with water inside an opening as big as our head, which a flat stone cover. They called it “bato a Inacban”, in the dialect.',
+		},
+		{
+			name: 'BARANGAY INACBAN',
+			image: brgyInacban,
+			alt: 'brgyInacban',
+			caption:
+				'Inacban is the present official name of the barrio. The name Inacban of this barrio had been popular since the first group of inhabitants inhabited the place. Its name is derived from a stone with water inside an opening as big as our head, which a flat stone cover. They called it “bato a Inacban”, in the dialect.',
+		},
+		{
+			name: 'BARANGAY KILABAN',
+			image: brgyKilaban,
+			alt: 'brgyKilaban',
+			caption:
+				'Kilaban is located on the place surrounded by hills. It is about one and a half kilometers from the school of Buenavista. Unlike Buenavista the houses are built far from each other. Water is almost available in every place. Rice paddies could be seen in some parts of it. Like the people in Buenavista, Kilaban folks are engaged much in farming. They own big corn and rice fields. They plant also fruit trees especially bananas around the field. They are very industrious people but however a great number of  them are illiterates.',
 		},
 	];
 	return (

@@ -44,7 +44,7 @@ const Navbar = () => {
 				<div className="p-3">
 					<div>
 						<img
-							className="w-52 drop-shadow-2xl"
+							className="w-52 drop-shadow-4xl"
 							src={AbanteAyungon}
 							alt="AbanteAyungon"
 						/>

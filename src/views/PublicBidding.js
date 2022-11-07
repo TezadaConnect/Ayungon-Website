@@ -21,8 +21,16 @@ import BIDID20220218 from '../files/BidsAndAwards/publicbidding/BIDID20220218.pd
 import BIDID20220219 from '../files/BidsAndAwards/publicbidding/BIDID20220219.pdf';
 import BIDID2022042120220425 from '../files/BidsAndAwards/publicbidding/BIDID2022042120220425.pdf';
 import BIDID2022042620220428 from '../files/BidsAndAwards/publicbidding/BIDID2022042620220428.pdf';
+import BIDBULLETINNO1 from '../files/BidsAndAwards/publicbidding/BIDBULLETINNO1.pdf';
 const PublicBidding = () => {
 	const publicBidding = [
+		{
+			bidId: 'BID BULLETIN NO. 1 BID ID NO. 2022-10-55',
+			name: '',
+			file: BIDBULLETINNO1,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
 		{
 			bidId: 'BID ID # 2022-05-26 (REBIDDING) & BID ID # 2022-05-28 ',
 			name: 'Procurement of One (1) Package of Rice Seeds and Corn Seeds for Enhancing the Sustainable Agricultural Productivity of Ayungon Farmers of Special Area Agricultural Development (SAAD Project) at Municipality of Ayungon, Negros Oriental, Repair of Municipal Vehicle (Self-loader Truck) at Ayungon, Negros Oriental',

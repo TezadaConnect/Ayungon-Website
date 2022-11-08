@@ -1,5 +1,6 @@
 import React from 'react';
 import AyungonDalupapa from '../../assets/AyungonDalupapa.jpg';
+import taboTownshipAnivv from '../../assets/taboTownshipAnivv.jpg';
 import pinato from '../../assets/pinato.jpg';
 import humayan from '../../assets/humayan.jpg';
 import Footer from '../../components/Footer';
@@ -7,15 +8,15 @@ const Tradition = () => {
 	return (
 		<div>
 			<div className="flex justify-center items-center text-center flex-col">
-				<div className="flex justify-center items-center text-center bg-green-600 w-3/4">
+				<div className="flex justify-center items-center text-center bg-green-600 lg:w-3/4">
 					{' '}
 					<h1 className="font-bold text-5xl py-10 font-serif text-white ">
 						TRADITION
 					</h1>
 				</div>
 				<div className=" w-screen flex justify-center flex-col items-center pb-20 pt-7">
-					<div className="flex flex-row w-screen justify-center gap-5 items-center text-center ">
-						<div className="w-[550px] flex justify-center items-center ">
+					<div className="flex lg:flex-row flex-col w-screen justify-center gap-5  text-center ">
+						<div className="lg:w-[550px] flex justify-center items-center ">
 							<div>
 								<h1 className=" font-serif text-2xl pb-2 font-bold">
 									CULINARY TOURISM
@@ -51,20 +52,50 @@ const Tradition = () => {
 										COATED PULVORON best for “pasalubong” a chocolate coated
 										pulvoron in any flavor.
 									</p>
+									<br></br>
+
+									<h1 className="font-serif text-2xl pb-2 font-bold">
+										MISSION
+									</h1>
+									<ul>
+										<li>
+											<p className="clear-none text-justify text-lg font-serif">
+												• To engender an Ayunganon community of productive human
+												resources nurtured with high-quality education and
+												excellent health services.
+											</p>
+										</li>
+										<li>
+											<p className="clear-none text-justify text-lg font-serif">
+												• To establish strategic growth-centers and provide
+												infrastructure support that promote service-delivery
+												efficiency, strengthen agricultural productivity support
+												and promote Agri-based industries while conserving the
+												environment.
+											</p>
+										</li>
+									</ul>
+									<br></br>
 								</div>
 							</div>
 						</div>
-						<div className="w-[550px] flex justify-center ">
+						<div className="lg:w-[550px] flex justify-center ">
 							<div>
 								<div>
 									<h1 className="font-serif text-2xl pb-1 font-bold">
 										ANNUAL TOWNSHIP COMMEMORATION
 									</h1>
+									<img
+										className="w-60 float-right p-2  "
+										src={taboTownshipAnivv}
+										alt="taboTownshipAnivv"
+									/>
 									<p className="clear-none text-justify text-lg font-serif">
-										- TABO-BANAY participated by the 24 barangays showcasing
-										their best practices, reliving our culture (a look in the
-										past) like indigenous games, old-time culinary.
+										TABO-BANAY participated by the 24 barangays showcasing their
+										best practices, reliving our culture (a look in the past)
+										like indigenous games, old-time culinary.
 									</p>
+									<br></br>
 									<br></br>
 									<h1 className="font-serif text-2xl pb-1 font-bold">
 										HUMAYAN FESTIVAL OF BANBAN
@@ -91,6 +122,16 @@ const Tradition = () => {
 										Tilapia raising to address the low supply of fish in the
 										market. At present, the barangay has big hatchery if Tilapia
 										fir many locals have tilapia ponds in their homes.
+									</p>
+									<br></br>
+									<h1 className="font-serif text-2xl pb-2 font-bold">
+										SHARED VISION
+									</h1>
+
+									<p className="clear-none text-justify text-lg font-serif">
+										• AYUNGON: The rice bowl if central negros a peaceful
+										community of healthy and god-fearing people, moving ahead in
+										a sustainably-managed and ecologically-balanced environment.
 									</p>
 								</div>
 							</div>

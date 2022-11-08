@@ -159,7 +159,7 @@ export const DropBarNavigation = () => {
 											navigate(item.route);
 											document.getElementById('nav-drop').style.display = null;
 										}}
-										className="cursor-pointer hover:underline decoration-green-600 decoration-2 shadow-sm p-1"
+										className="cursor-pointer hover:underline decoration-green-600 decoration-2 shadow-sm p-1 w-40"
 									>
 										{item.label}
 									</div>

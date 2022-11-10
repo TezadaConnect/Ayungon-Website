@@ -2,7 +2,8 @@ import React from 'react';
 import Footer from '../../components/Footer';
 const OfficeoftheMayor = () => {
 	return (
-		<div className="w-screen h-full">
+		<div>
+			<div className="w-screen h-[500px]"></div>
 			<Footer />
 		</div>
 	);

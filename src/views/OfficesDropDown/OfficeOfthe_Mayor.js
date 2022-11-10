@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Footer from '../../components/Footer';
 const OfficeoftheMayor = () => {
 	return (
-		<div className="flex">
-			<div>OfficeoftheMayordsdsds</div>
+		<div>
+			<Footer />
 		</div>
 	);
 };

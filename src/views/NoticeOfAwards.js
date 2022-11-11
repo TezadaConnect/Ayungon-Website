@@ -2,9 +2,16 @@ import React from 'react';
 import downloadIcon from '../assets/downloadIcon.png';
 import NOTICEOFAWARD1 from '../files/BidsAndAwards/NoticeOfAwards/NOTICEOFAWARD1.pdf';
 import NOTICEOFAWARD2 from '../files/BidsAndAwards/NoticeOfAwards/NOTICEOFAWARD2.pdf';
-
+import BIDID20221054 from '../files/BidsAndAwards/NoticeOfAwards/BIDID20221054.pdf';
 const NoticeOfAwards = () => {
 	const noaData = [
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID # 2022-10-54',
+			file: BIDID20221054,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
 		{
 			bidId: 'NOTICE OF AWARD/PROCEED',
 			name: 'BID ID # 2021-12-57 ,BID ID # 2021-12-58',

@@ -8,7 +8,7 @@ const Tradition = () => {
 	return (
 		<div>
 			<div className="flex justify-center items-center text-center flex-col">
-				<div className="flex justify-center items-center text-center bg-green-600 lg:w-3/4">
+				<div className="flex justify-center items-center text-center bg-green-600 lg:w-3/4 w-screen">
 					{' '}
 					<h1 className="font-bold text-5xl py-10 font-serif text-white ">
 						TRADITION

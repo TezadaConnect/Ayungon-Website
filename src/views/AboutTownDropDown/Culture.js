@@ -46,7 +46,7 @@ const Culture = () => {
 						</p>
 						<br></br>
 
-						<h1 className="font-serif text-2xl font-bold">
+						<h1 className="font-serif lg:text-2xl font-bold">
 							THE FORE’ (VIRGIN FOREST)
 						</h1>
 

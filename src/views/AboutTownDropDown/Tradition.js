@@ -16,7 +16,7 @@ const Tradition = () => {
 				</div>
 				<div className=" w-screen flex justify-center flex-col items-center pb-20 pt-7">
 					<div className="flex lg:flex-row flex-col w-screen justify-center gap-5  text-center ">
-						<div className="lg:w-[550px] flex justify-center items-center ">
+						<div className="lg:w-[550px] flex justify-center items-center lg:m-0 m-3">
 							<div>
 								<h1 className=" font-serif text-2xl pb-2 font-bold">
 									CULINARY TOURISM
@@ -79,7 +79,7 @@ const Tradition = () => {
 								</div>
 							</div>
 						</div>
-						<div className="lg:w-[550px] flex justify-center ">
+						<div className="lg:w-[550px] flex justify-centerlg:m-0 m-3 ">
 							<div>
 								<div>
 									<h1 className="font-serif text-2xl pb-1 font-bold">

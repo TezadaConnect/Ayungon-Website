@@ -15,7 +15,7 @@ const News = () => {
 		},
 	];
 	return (
-		<div className="w-screen bg-slate-300 flex justify-center flex-col items-center">
+		<div className="w-screen bg-slate-300 flex justify-center flex-col items-center lg:m-0 m-2">
 			<div className="pt-5 w-full flex justify-center ">
 				{/* <div className="flex justify-center drop-shadow-xl py-5 bg-white text-3xl w-9/12 font-Cinzel font-bold">
 					<h1>News And Updates</h1>
@@ -51,7 +51,7 @@ const News = () => {
 								key={index}
 							>
 								<Iframe
-									className="lg:w-80"
+									className="lg:w-80 w-72"
 									width={item?.width}
 									height={item?.height}
 									src={item?.src}

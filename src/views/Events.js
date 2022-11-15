@@ -4,7 +4,8 @@ import { Fade } from 'react-slideshow-image';
 import VolleyballClinic from '../assets/EventSlider/VolleyballClinic.jpg';
 import VolleyballClinic_2 from '../assets/EventSlider/VolleyballClinic_2.jpg';
 import YouthSports from '../assets/EventSlider/YouthSports.jpg';
-
+import ChristmasParty from '../assets/EventSlider/ChristmasParty.jpg';
+import AyungonGovPh from '../assets/EventSlider/AyungonGovPh.jpg';
 const Events = () => {
 	const fadeImages = [
 		{
@@ -20,6 +21,14 @@ const Events = () => {
 			url: VolleyballClinic_2,
 			alt: 'VolleyballClinic_2',
 		},
+		{
+			url: ChristmasParty,
+			alt: 'ChristmasParty',
+		},
+		{
+			url: AyungonGovPh,
+			alt: 'AyungonGovPh',
+		},
 	];
 	// const septemberEvents = [
 	// 	{
@@ -30,6 +39,24 @@ const Events = () => {
 	// ];
 
 	const upcomingEvents = [
+		{
+			eventImage: AyungonGovPh,
+			eventName: 'Ayungon.gov.ph',
+			alt: 'Volleyball',
+			link: 'https://www.facebook.com/photo?fbid=539686171363440&set=a.497554042243320',
+			target: '_blank',
+			caption:
+				"The future is here.This December. We bring you Ayungon's new official website.This is only the beginning. In 2023, LGU Ayungon will #GoDigital. We adopt more digital technologies to help improve and streamline our services for the people and for the community.That's ABANTE Ayungon. Moving forward and beyond.",
+		},
+		{
+			eventImage: ChristmasParty,
+			eventName: 'Christmas Party',
+			alt: 'Volleyball',
+			link: 'https://www.facebook.com/photo?fbid=539652961366761&set=a.497554042243320',
+			target: '_blank',
+			caption:
+				'Dearest LGU Employees, Ho-Ho-Ho! Mark your calendar and get ready for that fun-filled Christmas Party! On December 16, come celebrate with us!',
+		},
 		{
 			eventImage: VolleyballClinic,
 			eventName: 'VolleyBall Clinic',
@@ -90,15 +117,15 @@ const Events = () => {
 											href={item?.link}
 											target={item?.target}
 										>
-											<div className="flex flex-row justify-center items-center gap-5 hover:scale-105">
-												<div>
+											<div className="flex lg:flex-row flex-col justify-center items-center gap-5 hover:scale-105">
+												<div className="w-96">
 													<img
 														className="w-[1700px] "
 														src={item?.eventImage}
 														alt={item?.alt}
 													/>
 												</div>
-												<div className="gap-2 flex flex-col ">
+												<div className="gap-2 flex flex-col w-96">
 													<div>
 														<h1 className="uppercase font-bold">
 															<u> {item?.eventName}</u>

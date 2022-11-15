@@ -21,6 +21,10 @@ const routeInformation = [
 		label: 'Officials',
 		route: 'officials',
 	},
+	{
+		label: 'Contacts',
+		route: 'Contacts',
+	},
 	// x`
 	{
 		label: 'About Town',

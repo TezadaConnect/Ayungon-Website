@@ -22,8 +22,88 @@ import BIDID20220219 from '../files/BidsAndAwards/publicbidding/BIDID20220219.pd
 import BIDID2022042120220425 from '../files/BidsAndAwards/publicbidding/BIDID2022042120220425.pdf';
 import BIDID2022042620220428 from '../files/BidsAndAwards/publicbidding/BIDID2022042620220428.pdf';
 import BIDBULLETINNO1 from '../files/BidsAndAwards/publicbidding/BIDBULLETINNO1.pdf';
+import BIDIDNO20221157 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221157.pdf';
+import BIDIDNO20221158 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221158.pdf';
+import BIDIDNO20221159 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221159.pdf';
+import BIDIDNO20221160 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221160.pdf';
+import BIDIDNO20221161 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221161.pdf';
+import BIDIDNO20221162 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221162.pdf';
+import BIDIDNO20221163 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221163.pdf';
+import BIDIDNO20221164 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221164.pdf';
+import BIDIDNO20221165 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221165.pdf';
+import BIDIDNO20221166 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221166.pdf';
 const PublicBidding = () => {
 	const publicBidding = [
+		{
+			bidId: 'BID ID NO 2022-11-66',
+			name: 'SUPPLY AND DELIVERY: BRAND NEW WHEEL TYPE BACKHOE AT AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20221166,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO 2022-11-65',
+			name: 'CONSTRUCTION OF FOOTBRIDGE AT SITIO ILAYA, BARANGAY TAMBO, AYUNGON NEGROS ORIENTAL',
+			file: BIDIDNO20221165,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO 2022-11-64',
+			name: 'CONSTRUCTION OF FOOTBRIDGE AT SITIO PATIC, BARANGAY TAMBO, AYUNGON NEGROS ORIENTAL',
+			file: BIDIDNO20221164,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO 2022-11-63',
+			name: 'CONSTRUCTION OF RIVER CONTROL AT BARANGAY INIBAN, AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20221163,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO 2022-11-62',
+			name: 'CONSTRUCTION OF DRAINAGE CANAL AT BARANGAY INIBAN, AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20221162,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO 2022-11-61',
+			name: 'ESTABLISHMENT OF DAIRY CATTLE FARMING PROJECT AT MABATO, AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20221161,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO 2022-11-60',
+			name: 'ROAD CONCRETING: AMDUS BARANGAY ROAD AT AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20221160,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO 2022-11-59',
+			name: 'ROAD CONCRETING: PORTION OF TODOS LOS SANTOS STREET, TAMPOCON II, AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20221159,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO 2022-11-58',
+			name: 'ROAD CONCRETING: TIBYAWAN BARANGAY ROAD AT AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20221158,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO: 2022-11-57',
+			name: 'ROAD CONCRETING: NABALI-AN, CAROL-AN BARANGAY ROAD AT AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20221157,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
 		{
 			bidId: 'BID BULLETIN NO. 1 BID ID NO. 2022-10-55',
 			name: '',

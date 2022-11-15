@@ -20,6 +20,7 @@ import Tradition from '../views/AboutTownDropDown/Tradition';
 import Barangays from '../views/AboutTownDropDown/Barangays';
 import OfficeoftheMayor from '../views/OfficesDropDown/OfficeOfthe_Mayor';
 import TourismOffice from '../views/OfficesDropDown/TourismOffice';
+import Contacts from '../views/Contacts';
 
 const MainRouter = () => {
 	return (
@@ -101,6 +102,10 @@ const MainRouter = () => {
 					<Route
 						path="/about-town"
 						element={<AboutTheTown />}
+					/>
+					<Route
+						path="/Contacts"
+						element={<Contacts />}
 					/>
 					<Route
 						path="/about-town/history"

@@ -118,15 +118,15 @@ const Events = () => {
 											target={item?.target}
 										>
 											<div className="flex lg:flex-row flex-col justify-center items-center gap-5 hover:scale-105">
-												<div className="w-96">
+												<div className="lg:w-96">
 													<img
 														className="w-[1700px] "
 														src={item?.eventImage}
 														alt={item?.alt}
 													/>
 												</div>
-												<div className="gap-2 flex flex-col w-96">
-													<div>
+												<div className="gap-2 flex flex-col lg:w-96 text-center lg:text-justify  ">
+													<div class>
 														<h1 className="uppercase font-bold">
 															<u> {item?.eventName}</u>
 														</h1>

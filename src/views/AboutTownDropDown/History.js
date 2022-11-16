@@ -146,7 +146,7 @@ const History = () => {
 									Ayungon and vise versa. Pablo Tiongco was once a president of
 									Tayasan and Buenaventura Borromeo was once a vice president of
 									the municipality of Tayasan. Ayungon was under Tayasan for
-									twenty thre years.
+									twenty three years.
 								</p>
 							</div>
 
@@ -168,8 +168,8 @@ const History = () => {
 									Ireneo Pael, Isidoro Mahinay, Nicolas Calumba, Juan Taburaza,
 									Raymundo Pastor, Basilio Villegas and Antera Romano. This town
 									was formally established in 1924 when Governor General Leonard
-									Wood came purposely to see the place andappointed the
-									temporary officials through the recommendationof the
+									Wood came purposely to see the place and appointed the
+									temporary officials through the recommendation of the
 									Provincial governor Enrique Villanueva. The following were the
 									officials appointed by the Governor-General Leonard Wood;
 									Benito Sanches as president and Timoteo Perez as Vice
@@ -180,12 +180,12 @@ const History = () => {
 									officials, the following came out: Benito Sanches as president
 									and Apolonio Deguit as vice-president. Basilio Villegas took
 									the place of Apolonio Deguit as councilor. The other
-									councilors appointed were also chosen by the conventionests.
+									councilors appointed were also chosen by the conventionists.
 									Benito Sanches was not able to finish the term because he died
 									before the expiration of the term so that Apolonio Deguit the
 									vice president took the place as president of the town. On the
 									election of 1928, Julian Villanueva was elected as president
-									and Juan Tabaraza as Vice President. Julian, Villanueva held
+									and Juan Tabaraza as Vice President. Julian Villanueva held
 									the position until 1941. After Julian Villanueva, Maximo
 									Enardecido with Juan Taburaza as vice president headed the
 									town until 1950. The vice mayorship of Juan Taburaza was
@@ -193,40 +193,41 @@ const History = () => {
 									gave way to a young man Baldomero Emperado. On the election of
 									1951, Juan Taburaza won with Macario Martinez as vice mayor.
 									The justices of the peace who served in the municipality of
-									Ayungon were Zacarias Alo, Vicente Parras and now we have
-									Joaquin Montenegro as our Justice of the Peace. The municipal
-									secretaries since the time of Benito Sanches to the present
-									were Demetrio colongon, Maximo Enardecido, Joselyn Barraquias,
-									and Lorenzo Ruiz the present incumbent. The treasurers were
-									the following: Pedro Camseko, Mr. Malanog, Roman Adanza,
-									Matelde Remollo, Areadio Lariosa, Felix Fontelo, Magdaleno
-									Catalbas, and Filomeno Barrica, the present treasurer. The
-									position of the chief of police since the time of Benito
-									Sanches to this time is occupied by Feliciano Alberto. During
-									the Spanish regime the town plaza was located at the beach. To
-									this time we can still see the ruins of the old municipal
-									building and the church. The present town plaza was
-									established during the latter part of the Spanish rule. The
-									reason for its transfer was due to the most terrible flood
-									that occurred ever since. The ruins of the Spanish buildings
-									in the present poblacion site could no longer be seen for the
-									people removed The latter part of the Spanish regime was
-									marked by a terrible epidemic of smallpox which took away
-									almost two thirds of the people of Ayungon. It was so terrible
-									and mournful that the houses had got to be burned. There were
-									no enough persons available to burry the dead. During the
-									World War II almost every activity stood still for the people
-									of the lowlands went to the mountains to hide. They were
-									afraid of the savage soldiers of Japan. The brutes and savages
-									established their garrison in Ayungon with the house of
-									Joaquin Lim as their headquarters. Before the Japanese landed
-									in Negros most of the men in lowlands prepared bolos, daggers
-									and other weapons but at the mention of Japanese patrol these
-									weapons were made tails for they ran to the mountains.
-									Villanueva held the position until 1941. After Julian
-									Villanueva, Maximo Enardecido with Juan Taburaza as vice
-									president headed the town until 1950. The vice mayorship of
-									Juan Taburaza was interrupted only for one term when he
+									Ayungon were Zacarias Alo, Vicente Paras, and Joaquin
+									Montenegro as Justice of the Peace. The municipal secretaries
+									since the time of Benito Sanches to the present were Demetrio
+									Colongon, Maximo Enardecido, Joselyn Barraquias, and Lorenzo
+									Ruiz the present incumbent. The treasurers were the following:
+									Pedro Camseko, Mr. Malanog, Roman Adanza, Matelde Remollo,
+									Areadio Lariosa, Felix Fontelo, Magdaleno Catalbas, and
+									Filomeno Barrica, the present treasurer. The position of the
+									chief of police since the time of Benito Sanches to this time
+									is occupied by Feliciano Alberto.
+								</p>
+
+								<p className="lg:px-16 py-5 text-xl">
+									During the Spanish regime the town plaza was located at the
+									beach. The present town plaza was established during the
+									latter part of the Spanish rule. The reason for its transfer
+									was due to the most terrible flood that occurred ever since.
+									The ruins of the Spanish buildings in the present poblacion
+									site could no longer be seen. The latter part of the Spanish
+									regime was marked by a terrible epidemic of smallpox which
+									took away almost two thirds of the people of Ayungon. It was
+									so terrible and mournful that the houses had got to be burned.
+									There were no enough persons available to burry the dead.
+									During the World War II almost every activity stood still for
+									the people of the lowlands went to the mountains to hide. They
+									were afraid of the savage soldiers of Japan. The brutes and
+									savages established their garrison in Ayungon with the house
+									of Joaquin Lim as their headquarters. Before the Japanese
+									landed in Negros most of the men in lowlands prepared bolos,
+									daggers and other weapons but at the mention of Japanese
+									patrol these weapons were made tails for they ran to the
+									mountains. Villanueva held the position until 1941. After
+									Julian Villanueva, Maximo Enardecido with Juan Taburaza as
+									vice president headed the town until 1950. The vice mayorship
+									of Juan Taburaza was interrupted only for one term when he
 									retired in politics and gave way to a young man Baldomero
 									Emperado. On the election of 1951, Juan Taburaza won with
 									Macario Martinez as vice mayor. The justices of the peace who
@@ -240,27 +241,7 @@ const History = () => {
 									Lariosa, Felix Fontelo, Magdaleno Catalbas, and Filomeno
 									Barrica, the present treasurer. The position of the chief of
 									police since the time of Benito Sanches to this time is
-									occupied by Feliciano Alberto. During the Spanish regime the
-									town plaza was located at the beach. To this time we can still
-									see the ruins of the old municipal building and the church.
-									The present town plaza was established during the latter part
-									of the Spanish rule. The reason for its transfer was due to
-									the most terrible flood that occurred ever since. The ruins of
-									the Spanish buildings in the present poblacion site could no
-									longer be seen for the people removed The latter part of the
-									Spanish regime was marked by a terrible epidemic of smallpox
-									which took away almost two thirds of the people of Ayungon. It
-									was so terrible and mournful that the houses had got to be
-									burned. There were no enough persons available to burry the
-									dead. During the World War II almost every activity stood
-									still for the people of the lowlands went to the mountains to
-									hide. They were afraid of the savage soldiers of Japan. The
-									brutes and savages established their garrison in Ayungon with
-									the house of Joaquin Lim as their headquarters. Before the
-									Japanese landed in Negros most of the men in lowlands prepared
-									bolos, daggers and other weapons but at the mention of
-									Japanese patrol these weapons were made tails for they ran to
-									the mountains.
+									occupied by Feliciano Alberto.
 								</p>
 
 								<p className="lg:px-16 py-5 text-xl">
@@ -270,7 +251,7 @@ const History = () => {
 									Eugenio Antonio headed these soldiers. When the Japanese came
 									they were even faster than the manatad. They fled to the
 									mountains. The soldiers made the civilians worked on rice
-									bfields, building headquarters, carry bars of soaps and sacks
+									fields, building headquarters, carry bars of soaps and sacks
 									of salt to Negros Occidental. Ilawod is famous for skulls and
 									skeletons of human beings for the brutes tortured and killed
 									the captured Filipino soldiers and civilians in this place. To
@@ -336,19 +317,7 @@ const History = () => {
 							</div>
 						</div>
 					</div>
-					<div className="lg:flex hidden w-2/12  justify-center  pt-24">
-						<div className="flex flex-col">
-							<div className="text-xl justify-center flex font-bold font-serif uppercase">
-								<h1>Offices</h1>
-							</div>
-							<div>
-								<ul className="cursor-pointer pt-5 text-lg gap-5">
-									<li className="hover:scale-105">Toursim Office</li>
-									<li className="hover:scale-105">Mayor's Office</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+					<div className="lg:flex hidden w-2/12  justify-center  pt-24"></div>
 				</div>
 			</div>
 

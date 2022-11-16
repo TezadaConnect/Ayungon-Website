@@ -354,7 +354,7 @@ const SmallValue = () => {
 					return (
 						<React.Fragment key={key}>
 							<div className="flex flex-row justify-center drop-shadow-lg  items-center pt-5 ">
-								<div className="bg-white lg:w-[935px] p-10 ">
+								<div className="bg-white drop-shadow-xl lg:w-[935px] p-10 ">
 									<div className="font-Cinzel flex flex-row justify-between items-center  rounded-xl">
 										<div className="flex justify-center items-center text-sm  ">
 											<div className="font-Cinzel text-sm gap-5 flex flex-col">

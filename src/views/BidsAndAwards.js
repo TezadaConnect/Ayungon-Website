@@ -13,12 +13,12 @@ const BidsAndAwards = () => {
 
 	return (
 		<div>
-			<div className="flex flex-col bg-slate-200 w-10/12 m-auto pb-36	">
-				<div className="flex flex-col justify-center items-center px-3 pt-5">
-					<div className="flex  font-Cinzel text-3xl justify-center items-center text-center w-3/4 p-5 bg-green-600 ">
+			<div className="flex flex-col w-[1000px] m-auto pb-36 	">
+				<div className="flex flex-col justify-center items-center px-3 lg:pt-5 pt-0">
+					<div className="flex  font-Cinzel text-3xl justify-center items-center text-center w-[935px] p-5 bg-green-600 ">
 						<h1> BIDS AND AWARDS</h1>
 					</div>
-					<div className="flex lg:flex-row flex-col items-center bg-white w-3/4 lg:gap-40	 justify-center py-5 font-Cinzel text-lg">
+					<div className="flex lg:flex-row flex-col items-center bg-white w-[935px] lg:gap-40 drop-shadow-xl justify-center py-5 font-Cinzel text-lg">
 						{miniNavbar?.map((item, key) => {
 							return (
 								<React.Fragment key={key}>

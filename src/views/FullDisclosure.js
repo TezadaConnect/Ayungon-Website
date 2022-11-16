@@ -145,9 +145,9 @@ const Full_Disclosure = [
 const FullDisclosure = () => {
 	return (
 		<div>
-			<div className="flex flex-col bg-slate-200 w-10/12 m-auto pb-36	">
+			<div className="flex flex-col  w-10/12 m-auto pb-36	">
 				<div className="flex justify-center items-center px-3 pt-5">
-					<div className="flex font-Cinzel text-3xl justify-center items-center text-center w-3/4 p-5 bg-green-600 ">
+					<div className="flex font-Cinzel text-3xl justify-center items-center text-center w-[935px] p-5 drop-shadow-xl bg-green-600 ">
 						<h1> FULL DISCLOSURE</h1>
 					</div>
 				</div>
@@ -155,7 +155,7 @@ const FullDisclosure = () => {
 					return (
 						<React.Fragment key={key}>
 							<div className="flex flex-row justify-center drop-shadow-lg  items-center p-3">
-								<div className="bg-white w-3/4 p-10 ">
+								<div className="bg-white drop-shadow-xl w-[935px] p-10 ">
 									<div className="font-Cinzel flex flex-row justify-between items-center  rounded-xl">
 										<div className="flex justify-center items-center text-sm  ">
 											<h1 className="font-Cinzel text-sm ">

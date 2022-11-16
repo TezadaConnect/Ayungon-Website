@@ -267,7 +267,7 @@ const PublicBidding = () => {
 					return (
 						<React.Fragment key={key}>
 							<div className="flex flex-row justify-center drop-shadow-lg  items-center pt-5 ">
-								<div className="bg-white lg:w-[935px] p-10 ">
+								<div className="bg-white drop-shadow-xl lg:w-[935px] p-10 ">
 									<div className="font-Cinzel flex flex-row justify-between items-center  rounded-xl">
 										<div className="flex justify-center items-center text-sm  ">
 											<h1 className="font-Cinzel text-sm ">

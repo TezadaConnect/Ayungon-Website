@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer';
 import ayungon_municipality from '../../assets/imgslider/ayungon_municipality.jpg';
-import ayungon_municipality_1 from '../../assets/imgslider/ayungon_municipality_1.jpg';
+
 import MAXIMO_ENARDECIDO from '../../assets/Mayors/MAXIMO_ENARDECIDO.jpg';
 import JUAN_TABURAZA from '../../assets/Mayors/JUAN_TABURAZA.jpg';
 import IRENEO_TUBIO from '../../assets/Mayors/IRENEO_TUBIO.jpg';
@@ -11,6 +11,7 @@ import MARTIN_GAROL from '../../assets/Mayors/MARTIN_GAROL.jpg';
 import LORENZO_DY from '../../assets/Mayors/LORENZO_DY.jpg';
 import EdselEnardecido from '../../assets/Mayors/EdselEnardecido.jpeg';
 import ErwinAgustino from '../../assets/Mayors/ErwinAgustino.jpeg';
+import ParkFounded from '../../assets/ParkFounded.jpg';
 const History = () => {
 	const mayors = [
 		{
@@ -118,18 +119,18 @@ const History = () => {
 							})}
 						</div>
 					</div>
-					<div className="flex  font-serif py-10 w-8/12 flex-col gap-5">
+					<div className="flex font-serif py-10 w-8/12 flex-col gap-5">
 						<div className="flex justify-center  font-serif font-bold text-center lg:text-4xl pt-5">
 							<h1> HISTORY OF AYUNGON NEGROS ORIENTAL</h1>
 						</div>
 						<div className=" flex flex-col  ">
-							<div className="flex flex-col justify-center items-center text-justify relative">
+							<div className="flex flex-col justify-center items-center text-justify">
 								<img
-									className="w-10/12 drop-shadow-lg gap-2 relative"
+									className="lg:w-10/12 drop-shadow-lg gap-2 "
 									src={ayungon_municipality}
 									alt="ayungon_municipality"
 								/>
-								<p className="lg:px-16 py-10 text-xl">
+								<p className="lg:px-16 py-10 lg:text-xl">
 									The Cura Parroco were Rev. Father Eusebio Valderama and Rev.
 									Father Setorio, Rev. Father Teodorico Lungca who died in this
 									place, Rev. Macario Ga, Rev. Father Emiliano Pardo, Rev.
@@ -151,61 +152,61 @@ const History = () => {
 							</div>
 
 							<div className="flex flex-col justify-center items-center text-justify ">
-								<div className="w-full  uppercase justify-center items-center text-center flex font-serif font-bold lg:text-4xl pt-5 ">
-									<h1 className="flex ">Founded </h1>
+								<div className="">
+									<img
+										className=" flex lg:ml-16 mr-3 mt-7 rounded-lg drop-shadow-2xl  lg:w-80 w-52 lg:float-left"
+										src={ParkFounded}
+										alt="ParkFounded"
+									/>
+									<p className="lg:px-16 lg:py-5 lg:text-xl text-justify 	 ">
+										<b>The town of Ayungon was founded in 1924</b> through the
+										efforts of the following prominent men: Mr. Pablo Tiongco,
+										Buenaventura Borromeo, Benito Sanches, Apolonio Deguit,
+										Gregorio Emperado, Esteban Mahinay, Salvador Emperado,
+										Victoriano Embalsado, Ireneo Pael, Isidoro Mahinay, Nicolas
+										Calumba, Juan Taburaza, Raymundo Pastor, Basilio Villegas
+										and Antera Romano. This town was formally established in
+										1924 when Governor General Leonard Wood came purposely to
+										see the place and appointed the temporary officials through
+										the recommendation of the Provincial governor Enrique
+										Villanueva. The following were the officials appointed by
+										the Governor-General Leonard Wood; Benito Sanches as
+										president and Timoteo Perez as Vice President and the
+										following were the councilors: Apolonio Deguit, Nicolas
+										Calumba, Juan Taburaza, Basilio Revelegia and Sulpicio
+										Tiengo. The convention headed by the Provincial Governor
+										which was held for the purpose of choosing the real
+										officials, the following came out: Benito Sanches as
+										president and Apolonio Deguit as vice-president. Basilio
+										Villegas took the place of Apolonio Deguit as councilor. The
+										other councilors appointed were also chosen by the
+										conventionists. Benito Sanches was not able to finish the
+										term because he died before the expiration of the term so
+										that Apolonio Deguit the vice president took the place as
+										president of the town. On the election of 1928, Julian
+										Villanueva was elected as president and Juan Tabaraza as
+										Vice President. Julian Villanueva held the position until
+										1941. After Julian Villanueva, Maximo Enardecido with Juan
+										Taburaza as vice president headed the town until 1950. The
+										vice mayorship of Juan Taburaza was interrupted only for one
+										term when he retired in politics and gave way to a young man
+										Baldomero Emperado. On the election of 1951, Juan Taburaza
+										won with Macario Martinez as vice mayor. The justices of the
+										peace who served in the municipality of Ayungon were
+										Zacarias Alo, Vicente Paras, and Joaquin Montenegro as
+										Justice of the Peace. The municipal secretaries since the
+										time of Benito Sanches to the present were Demetrio
+										Colongon, Maximo Enardecido, Joselyn Barraquias, and Lorenzo
+										Ruiz the present incumbent. The treasurers were the
+										following: Pedro Camseko, Mr. Malanog, Roman Adanza, Matelde
+										Remollo, Areadio Lariosa, Felix Fontelo, Magdaleno Catalbas,
+										and Filomeno Barrica, the present treasurer. The position of
+										the chief of police since the time of Benito Sanches to this
+										time is occupied by Feliciano Alberto.
+									</p>
 								</div>
-								<img
-									className="w-10/12 drop-shadow-lg flex py-2	 gap-2"
-									src={ayungon_municipality_1}
-									alt="ayungon_municipality_1"
-								/>
 
-								<p className="lg:px-16 py-5 text-xl ">
-									The town of Ayungon was founded in 1924 through the efforts of
-									the following prominent men: Mr. Pablo Tiongco, Buenaventura
-									Borromeo, Benito Sanches, Apolonio Deguit, Gregorio Emperado,
-									Esteban Mahinay, Salvador Emperado, Victoriano Embalsado,
-									Ireneo Pael, Isidoro Mahinay, Nicolas Calumba, Juan Taburaza,
-									Raymundo Pastor, Basilio Villegas and Antera Romano. This town
-									was formally established in 1924 when Governor General Leonard
-									Wood came purposely to see the place and appointed the
-									temporary officials through the recommendation of the
-									Provincial governor Enrique Villanueva. The following were the
-									officials appointed by the Governor-General Leonard Wood;
-									Benito Sanches as president and Timoteo Perez as Vice
-									President and the following were the councilors: Apolonio
-									Deguit, Nicolas Calumba, Juan Taburaza, Basilio Revelegia and
-									Sulpicio Tiengo. The convention headed by the Provincial
-									Governor which was held for the purpose of choosing the real
-									officials, the following came out: Benito Sanches as president
-									and Apolonio Deguit as vice-president. Basilio Villegas took
-									the place of Apolonio Deguit as councilor. The other
-									councilors appointed were also chosen by the conventionists.
-									Benito Sanches was not able to finish the term because he died
-									before the expiration of the term so that Apolonio Deguit the
-									vice president took the place as president of the town. On the
-									election of 1928, Julian Villanueva was elected as president
-									and Juan Tabaraza as Vice President. Julian Villanueva held
-									the position until 1941. After Julian Villanueva, Maximo
-									Enardecido with Juan Taburaza as vice president headed the
-									town until 1950. The vice mayorship of Juan Taburaza was
-									interrupted only for one term when he retired in politics and
-									gave way to a young man Baldomero Emperado. On the election of
-									1951, Juan Taburaza won with Macario Martinez as vice mayor.
-									The justices of the peace who served in the municipality of
-									Ayungon were Zacarias Alo, Vicente Paras, and Joaquin
-									Montenegro as Justice of the Peace. The municipal secretaries
-									since the time of Benito Sanches to the present were Demetrio
-									Colongon, Maximo Enardecido, Joselyn Barraquias, and Lorenzo
-									Ruiz the present incumbent. The treasurers were the following:
-									Pedro Camseko, Mr. Malanog, Roman Adanza, Matelde Remollo,
-									Areadio Lariosa, Felix Fontelo, Magdaleno Catalbas, and
-									Filomeno Barrica, the present treasurer. The position of the
-									chief of police since the time of Benito Sanches to this time
-									is occupied by Feliciano Alberto.
-								</p>
-
-								<p className="lg:px-16 py-5 text-xl">
+								<p className="lg:px-16 py-5 lg:text-xl">
 									During the Spanish regime the town plaza was located at the
 									beach. The present town plaza was established during the
 									latter part of the Spanish rule. The reason for its transfer
@@ -244,7 +245,7 @@ const History = () => {
 									occupied by Feliciano Alberto.
 								</p>
 
-								<p className="lg:px-16 py-5 text-xl">
+								<p className="lg:px-16 py-5 lg:text-xl">
 									Some Filipino soldiers paraded on the streets so bravely
 									indeed, that many civilians were the victims of their cruelty.
 									They boxed, kicked, shot and even tortured civilians. Captain
@@ -271,12 +272,10 @@ const History = () => {
 									recipient of a new semi-permanent school building, a shop and
 									home Economics building.
 								</p>
-							</div>
-							<div>
-								<div className="w-full pl-16 uppercase flex font-serif font-bold text-4xl pt-5 ">
+								<div className="w-full lg:pl-16 uppercase flex font-serif font-bold  lg:text-4xl lg:pt-5 ">
 									<h1 className="">The Name</h1>
 								</div>
-								<p className="px-16 py-5 text-xl text-justify">
+								<p className=" lg:px-16 py-5 lg:text-xl text-justify">
 									There are several versions as to how Ayungon got its name but
 									one that sounds fascinating to its people is the story of
 									AYUNG. According to Dr. Tomoteo S. Oracion, noted
@@ -289,10 +288,10 @@ const History = () => {
 									referred as Ayung’s place. The name later was suffixed with on
 									attached to his name the AYUNGON was born.
 								</p>
-								<div className="w-full pl-16 uppercase flex font-serif font-bold text-4xl pt-5 ">
+								<div className="w-full lg:pl-16 uppercase flex font-serif font-bold text-center lg:text-4xl lg:pt-5 ">
 									<h1 className="">EARLY POLITICAL HISTORY</h1>
 								</div>
-								<p className="px-16 py-5 text-xl text-justify">
+								<p className="  lg:px-16 py-5 lg:text-xl text-justify">
 									One version goes that when the Spaniards were exploring the
 									area, they happen to pass by a native cutting a tree. The
 									Spaniards might have asked the person of the place but the

@@ -18,6 +18,8 @@ module.exports = {
 				SourceSansPro: ['Source Sans Pro', 'sans-serif'],
 				inter: ['Inter', 'sans-serif'],
 				GreatVibes: ['Great Vibes', 'cursive'],
+				Lobster: ['Lobster', 'cursive'],
+				FjallaOne: ['Fjalla One', 'sans-serif'],
 			},
 			backgroundImage: {
 				'hero-pattern': "url('./assets/bgimg.jpg')",

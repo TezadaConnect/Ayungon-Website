@@ -145,9 +145,9 @@ const Full_Disclosure = [
 const FullDisclosure = () => {
 	return (
 		<div>
-			<div className="flex flex-col  w-10/12 m-auto pb-36	">
+			<div className="flex flex-col  lg:w-10/12 w-screen m-auto pb-36	">
 				<div className="flex justify-center items-center px-3 pt-5">
-					<div className="flex font-Cinzel text-3xl justify-center items-center text-center w-[935px] p-5 drop-shadow-xl bg-green-600 ">
+					<div className="flex font-Cinzel text-3xl justify-center items-center text-center lg:w-[935px] w-screen p-5 drop-shadow-xl bg-green-600 ">
 						<h1> FULL DISCLOSURE</h1>
 					</div>
 				</div>

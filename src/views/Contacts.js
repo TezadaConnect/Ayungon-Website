@@ -7,15 +7,13 @@ import {
 	BsGeoAltFill,
 } from 'react-icons/bs';
 const Contacts = () => {
-	const ContactIcons = [
-		{ icon: <BsGeoAltFill size={40} />, name: 'Address' },
-		{ icon: <BsFillTelephoneFill size={40} />, name: 'Contact' },
-		{ icon: <BsFillChatDotsFill size={40} />, name: 'Email' },
-	];
-
 	const OfficeAddress = [
 		{
 			name: 'Municipality Of Ayungon',
+			address: 'Poblacion, Ayungon Negros Oriental, Philippines 6210',
+		},
+		{
+			name: 'Municipality Gymnasium',
 			address: 'Poblacion, Ayungon Negros Oriental, Philippines 6210',
 		},
 	];
@@ -126,77 +124,127 @@ const Contacts = () => {
 
 	return (
 		<div className="flex flex-col bg-green-400 gap-20">
-			<div className="w-screen flex flex-col item">
-				<div className="flex justify-center p-20">
-					<h1 className="font-FjallaOne font-bold text-6xl text-white">
+			<div className="gap-10 flex flex-col items-center justify-center">
+				<div className="flex justify-center pt-20">
+					<h1 className="text-6xl font-FjallaOne font-bold text-white">
 						CONTACT US
 					</h1>
 				</div>
-				<div className=" flex flex-col gap-10 ">
-					<div className="flex flex-row justify-center gap-20">
-						{ContactIcons?.map((item, key) => {
-							return (
-								<div
-									className="w-80 flex justify-center flex-col items-center text-white font-FjallaOne gap-1"
-									key={key}
-								>
-									<div>{item.icon}</div>
-									<div className="text-xl">{item.name}</div>
-								</div>
-							);
-						})}
-					</div>
-					<div className="flex flex-row justify-center  gap-20">
-						<div className="w-80 flex flex-col gap-8">
-							{OfficeAddress?.map((item, key) => {
-								return (
-									<div
-										className="text-center text-white"
-										key={key}
-									>
-										<div className="font-bold">{item.name}</div>
-										<div>{item.address}</div>
-									</div>
-								);
-							})}
+				<div className="flex lg:flex-row flex-col gap-20 justify-center">
+					<div className="flex flex-col gap-7 items-center  w-96">
+						<div className="flex flex-col items-center">
+							<div>
+								<BsGeoAltFill
+									size={40}
+									color="white"
+								/>
+							</div>
+							<div>
+								<h1 className="font-FjallaOne text-2xl text-white">ADDRESS</h1>
+							</div>
 						</div>
-						<div className="w-80 flex flex-col gap-8">
-							{OfficeContact?.map((item, key) => {
-								return (
-									<div
-										className="text-center text-white"
-										key={key}
-									>
-										<div className="font-bold">{item.name}</div>
-										<div>
-											<b>Contact No.: </b>
-											{item.contact}
+						<div>
+							<div className="flex flex-col gap-10">
+								{OfficeAddress?.map((item, key) => {
+									return (
+										<div
+											key={key}
+											className=" flex flex-col items-center text-white"
+										>
+											<div>
+												<h1 className="font-FjallaOne font-bold ">
+													{item.name}
+												</h1>
+											</div>
+											<div>
+												<h2 className="font-FjallaOne ">{item.address}</h2>
+											</div>
 										</div>
-										<div>{item.SocMed}</div>
-									</div>
-								);
-							})}
+									);
+								})}
+							</div>
 						</div>
-						<div className="w-80 flex flex-col gap-8">
-							{OfficeEmail?.map((item, key) => {
-								return (
-									<div
-										className="text-center text-white"
-										key={key}
-									>
-										<div className="font-bold">{item.name}</div>
-
-										<div>{item.email}</div>
-									</div>
-								);
-							})}
+					</div>
+					<div className="flex flex-col gap-7 text-center  w-96">
+						<div className="flex flex-col items-center">
+							<div>
+								<BsFillTelephoneFill
+									size={40}
+									color="white"
+								/>
+							</div>
+							<div>
+								<h1 className="font-FjallaOne text-2xl text-white">CONTACT</h1>
+							</div>
+						</div>
+						<div>
+							<div className="gap-10 flex flex-col  ">
+								{OfficeContact?.map((item, key) => {
+									return (
+										<div
+											key={key}
+											className="flex flex-col items-center text-white "
+										>
+											<div>
+												<h1 className="font-FjallaOne font-bold ">
+													{item.name}
+												</h1>
+											</div>
+											<div>
+												<h1 className="font-FjallaOne">
+													<b>Contact No.: </b>
+													{item.contact}
+												</h1>
+											</div>
+											<div>
+												<h1 className="font-FjallaOne ">{item.SocMed}</h1>
+											</div>
+										</div>
+									);
+								})}
+							</div>
+						</div>
+					</div>
+					<div className="flex flex-col gap-7 items-center  w-96">
+						<div className="flex flex-col items-center ">
+							<div>
+								<BsFillChatDotsFill
+									size={40}
+									color="white"
+								/>
+							</div>
+							<div>
+								<h1 className="font-FjallaOne text-2xl text-white">EMAIL</h1>
+							</div>
+						</div>
+						<div>
+							<div className="flex flex-col gap-7">
+								{OfficeEmail?.map((item, key) => {
+									return (
+										<div
+											key={key}
+											className="flex flex-col items-center text-white"
+										>
+											<div>
+												<h1 className="font-FjallaOne font-bold">
+													{item.name}
+												</h1>
+											</div>
+											<div className="font-FjallaOne">
+												<h1>
+													<b>EMAIL: </b>
+													{item.email}
+												</h1>
+											</div>
+										</div>
+									);
+								})}
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div>
-				<Footer />
-			</div>
+			<Footer />
 		</div>
 	);
 };

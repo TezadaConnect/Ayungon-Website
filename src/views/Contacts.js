@@ -29,6 +29,11 @@ const Contacts = () => {
 			SocMed: 'https://www.facebook.com/profile.php?id=100086701433603',
 		},
 		{
+			name: 'Human Resource Management Office(HRMO)',
+			contact: '09157930157',
+			SocMed: 'https://www.facebook.com/municipalityofayungon',
+		},
+		{
 			name: 'Department of Agrarian Reform (DAR)',
 			contact: '09298794050',
 			SocMed: '',
@@ -80,6 +85,10 @@ const Contacts = () => {
 		{
 			name: 'DILG Ayungon',
 			email: 'dilgayungon@gmail.com',
+		},
+		{
+			name: 'Human Resource Management Office(HRMO)',
+			email: 'hrmoayungon@gmail.com',
 		},
 		{
 			name: 'Office Of the Engineer',

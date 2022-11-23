@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialMediaPlugin from '../components/SocialMediaPlugin';
+
 import Iframe from 'react-iframe';
 const News = () => {
 	const VideoLinks = [
@@ -15,19 +15,9 @@ const News = () => {
 		},
 	];
 	return (
-		<div className="w-screen bg-slate-300 flex justify-center flex-col items-center lg:m-0 m-2">
-			<div className="pt-5 w-full flex justify-center ">
-				{/* <div className="flex justify-center drop-shadow-xl py-5 bg-white text-3xl w-9/12 font-Cinzel font-bold">
-					<h1>News And Updates</h1>
-				</div> */}
-
-				<div className="w-9/12 py-5 text-center bg-white font-Cinzel font-bold text-3xl">
-					News & Updates
-				</div>
-			</div>
-
-			<div className="flex lg:flex-row flex-col justify-center gap-6  ">
-				<div className="lg:flex hidden flex-col pt-7 ">
+		<div className=" flex lg:flex-row  flex-col justify-center  w-screen pt-10">
+			<div className="lg:w-[500px]  flex justify-center">
+				<div className="pt-20">
 					<a
 						rel="noreferrer"
 						target="_blank"
@@ -39,9 +29,43 @@ const News = () => {
 						/>
 					</a>
 				</div>
-				<div></div>
-				<div className="pt-7 flex flex-col gap-5 font-serif ">
-					<h1 className="flex justify-center items-center uppercase font-bold text-lg">
+			</div>
+			<div className="lg:w-[800px]  flex justify-center flex-col items-center gap-5 ">
+				<div className="">
+					<h1 className="font-FjallaOne text-3xl uppercase ">
+						{' '}
+						Facebook Updates
+					</h1>
+				</div>
+
+				<div className="flex items-center flex-col ">
+					<div className="drop-shadow-2xl">
+						<Iframe
+							src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmunicipalityofayungon&tabs=timeline&width=1000&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+							className="lg:w-[500px] w-[400px] h-96"
+							scrolling="no"
+							frameborder="0"
+							allowfullscreen="true"
+							allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+						></Iframe>
+					</div>
+				</div>
+				<div className="flex items-center flex-col ">
+					<div className="drop-shadow-2xl">
+						<Iframe
+							src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100087737546288&tabs=timeline&width=500&height=120&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+							className="lg:w-[500px] w-[400px] h-96"
+							scrolling="no"
+							frameborder="0"
+							allowfullscreen="true"
+							allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+						></Iframe>
+					</div>
+				</div>
+			</div>
+			<div className="lg:w-[500px]  flex justify-center text-center">
+				<div className="flex flex-col gap-5 font-serif ">
+					<h1 className="font-FjallaOne text-3xl uppercase ">
 						Youtube Updates
 					</h1>
 					{VideoLinks?.map((item, index) => {
@@ -59,9 +83,6 @@ const News = () => {
 							</div>
 						);
 					})}
-				</div>
-				<div>
-					<SocialMediaPlugin />
 				</div>
 			</div>
 		</div>

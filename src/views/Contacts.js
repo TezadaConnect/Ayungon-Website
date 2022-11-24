@@ -13,7 +13,7 @@ const Contacts = () => {
 			address: 'Poblacion, Ayungon Negros Oriental, Philippines 6210',
 		},
 		{
-			name: 'Municipality Gymnasium',
+			name: 'Municipal Gymnasium',
 			address: 'Poblacion, Ayungon Negros Oriental, Philippines 6210',
 		},
 	];

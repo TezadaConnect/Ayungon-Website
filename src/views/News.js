@@ -15,7 +15,7 @@ const News = () => {
 		},
 	];
 	return (
-		<div className=" flex lg:flex-row  flex-col justify-center  w-screen pt-10">
+		<div className=" flex lg:flex-row  flex-col justify-center  w-screen pt-10 pd-10">
 			<div className="lg:w-[500px]  flex justify-center">
 				<div className="pt-20">
 					<a

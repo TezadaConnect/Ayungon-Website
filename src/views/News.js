@@ -38,7 +38,7 @@ const News = () => {
 					</h1>
 				</div>
 
-				<div className="flex items-center flex-col ">
+				<div className="flex items-center flex-col gap-10 ">
 					<div className="drop-shadow-2xl">
 						<Iframe
 							src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmunicipalityofayungon&tabs=timeline&width=1000&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"

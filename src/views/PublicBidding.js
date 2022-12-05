@@ -32,8 +32,88 @@ import BIDIDNO20221163 from '../files/BidsAndAwards/publicbidding/BIDIDNO2022116
 import BIDIDNO20221164 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221164.pdf';
 import BIDIDNO20221165 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221165.pdf';
 import BIDIDNO20221166 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221166.pdf';
+import BIDIDNO20221053 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221053.pdf';
+import BIDIDNO20221267 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221267.pdf';
+import BIDIDNO20221268 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221268.pdf';
+import BIDIDNO20221269 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221269.pdf';
+import BIDIDNO20221270 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221270.pdf';
+import BIDIDNO20221271 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221271.pdf';
+import BIDIDNO20221272 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221272.pdf';
+import BIDIDNO20221273 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221273.pdf';
+import BIDIDNO20221274 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221274.pdf';
+import BIDIDNO20221275 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221275.pdf';
 const PublicBidding = () => {
 	const publicBidding = [
+		{
+			bidId: 'BID ID # 2022-12-75',
+			name: 'SUPPLY DELIVERY AND INSTALLATION OF SOLAR STREET LIGHTS ALONG AWA-AN,INIBAN AND TIGUIB, CALAG-CALAG (NATIONAL ROAD) AT AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20221275,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID # 2022-12-74',
+			name: 'PROCUREMENT OF DIESEL FUEL FOR ROAD REHABILITATION PROGRAM: IMPROVEMENT OF ALL-WEATHER ROADS IN AMDUS, KILABAN,NIASAN (CAROL-AN) JANDALAMANON, DULI-DULI (TIBYAWAN) AT AYUNGON, NEGROS ORIENTAL ',
+			file: BIDIDNO20221274,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID # 2022-12-73',
+			name: 'PROCUREMENT OF VAWC VEHICLE AT AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20221273,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID # 2022-12-72',
+			name: "PROVISION OF ONE PACKAGE SCHOOL SUPPLIES TO LEARNER CHILDREN'S OF MARGINALIZED MOTHER AT AYUNGON, NEGROS ORIENTAL",
+			file: BIDIDNO20221272,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID # 2022-12-71',
+			name: 'CONCRETING OF FARM TO MARKET ROAD BARANGAY MABATO, AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20221271,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID # 2022-12-70',
+			name: 'CONCRETING OF FARM TO MARKET ROAD BARANGAY NABHANG, AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20221270,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID # 2022-12-69',
+			name: 'CONCRETING OF FARM TO MARKET ROAD (NABALI-AN - MABATO) IN BARANGAY CAROL-AN, AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20221269,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID # 2022-12-68',
+			name: 'PROCUREMENT OF ONE (1) PACKAGE CONSTRUCTION MATERIALS FOR THE RENOVATION OF MUNICIPAL PLANNING AND DEVELOPMENT OFFICE AND BAC OFFICE AT MUNICIPALITY OF AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20221268,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID # 2022-12-67',
+			name: 'PROCUREMENT OF ONE (1) PACKAGE MEDICINES FOR COMPREHENSIVE MATERNAL CARE PROGRAM AT RHU AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20221267,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID # 2022-10-53 (2ND BIDDING)',
+			name: 'PROCUREMENT OF ONE (1) PACKAGE CHEMICALS AND OTHER SUPPLIES FOR ENVIRONMENTAL SANITATION PROGRAM AT RHU AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20221053,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
 		{
 			bidId: 'BID ID NO 2022-11-66',
 			name: 'SUPPLY AND DELIVERY: BRAND NEW WHEEL TYPE BACKHOE AT AYUNGON, NEGROS ORIENTAL',

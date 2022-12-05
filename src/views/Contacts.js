@@ -6,6 +6,7 @@ import {
 	BsFillTelephoneFill,
 	BsGeoAltFill,
 } from 'react-icons/bs';
+
 const Contacts = () => {
 	const OfficeAddress = [
 		{

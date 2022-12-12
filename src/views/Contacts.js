@@ -6,6 +6,7 @@ import {
 	BsFillTelephoneFill,
 	BsGeoAltFill,
 } from 'react-icons/bs';
+import { ContactUs } from '../components/ContactUs';
 
 const Contacts = () => {
 	const OfficeAddress = [
@@ -253,6 +254,9 @@ const Contacts = () => {
 						</div>
 					</div>
 				</div>
+			</div>
+			<div className="flex items-center justify-center w-screen">
+				<ContactUs />
 			</div>
 			<Footer />
 		</div>

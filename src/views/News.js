@@ -6,6 +6,11 @@ const News = () => {
 		{
 			width: '420',
 			height: '315',
+			src: 'https://www.youtube.com/watch?v=fOqh2jYl31U',
+		},
+		{
+			width: '420',
+			height: '315',
 			src: 'https://www.youtube.com/embed/YFZZJ2CCG_A?autoplay=1&mute=1',
 		},
 		{

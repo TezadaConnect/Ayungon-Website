@@ -42,8 +42,41 @@ import BIDIDNO20221272 from '../files/BidsAndAwards/publicbidding/BIDIDNO2022127
 import BIDIDNO20221273 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221273.pdf';
 import BIDIDNO20221274 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221274.pdf';
 import BIDIDNO20221275 from '../files/BidsAndAwards/publicbidding/BIDIDNO20221275.pdf';
+import BIDIDNO202210601 from '../files/BidsAndAwards/publicbidding/BIDIDNO202210601.pdf';
+import BIDIDNO202210631 from '../files/BidsAndAwards/publicbidding/BIDIDNO202210631.pdf';
+import BIDIDNO202210671 from '../files/BidsAndAwards/publicbidding/BIDIDNO202210671.pdf';
+import BIDIDNO202210681 from '../files/BidsAndAwards/publicbidding/BIDIDNO202210681.pdf';
+
 const PublicBidding = () => {
 	const publicBidding = [
+		{
+			bidId: 'BID ID NO. 2022-12-68 (2nd POSTING)',
+			name: 'PROCUREMEN OF ONE (1) PACKAGE CONSTRUCTION MATERIALS FOR THE RENOVATION OF MUNICIPAL PLANNING DEVELOPMENT OFFICE AND BAC OFFICE AT MUNICIPALITY OF AYUNGON',
+			file: BIDIDNO202210681,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2022-12-67 (2nd POSTING)',
+			name: 'PROCUREMENT OF ONE (1) PACKAGE MEDICINES FOR COMPREHENSIVE MATERNAL CARE PROGRAM AT RHU AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO202210671,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: ' BID ID NO. 2022-11-63 (2nd POSTING)',
+			name: '',
+			file: BIDIDNO202210631,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2022-11-60 (2nd POSTING)',
+			name: 'ROAD CONCRETING: AMDUS BARANGAY ROAD AT AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO202210601,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
 		{
 			bidId: 'BID ID # 2022-12-75',
 			name: 'SUPPLY DELIVERY AND INSTALLATION OF SOLAR STREET LIGHTS ALONG AWA-AN,INIBAN AND TIGUIB, CALAG-CALAG (NATIONAL ROAD) AT AYUNGON,NEGROS ORIENTAL',

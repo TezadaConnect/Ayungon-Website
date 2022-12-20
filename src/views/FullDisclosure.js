@@ -20,7 +20,8 @@ import AppSUPPLEMENTALNOCY2021 from '../files/FullDisclosure/AppSUPPLEMENTALNOCY
 import AppSUPPLEMENTALNO5CY2021 from '../files/FullDisclosure/AppSUPPLEMENTALNO5CY2021.pdf';
 import AppSUPPLEMENTALNO4CY2021 from '../files/FullDisclosure/AppSUPPLEMENTALNO4CY2021.pdf';
 import BIDOUTPROJECTSFORGOODSANDCIVILWORKS from '../files/FullDisclosure/BIDOUTPROJECTSFORGOODSANDCIVILWORKS.pdf';
-const Full_Disclosure = [
+import Projects from './Projects';
+const fullDisclosure = [
 	{
 		name: 'BID OUT PROJECTS FOR GOODS AND CIVIL WORKS (3rd QUARTER CY 2022)',
 		file: BIDOUTPROJECTSFORGOODSANDCIVILWORKS,
@@ -158,7 +159,7 @@ const FullDisclosure = () => {
 						<h1> FULL DISCLOSURE</h1>
 					</div>
 				</div>
-				{Full_Disclosure?.map((item, key) => {
+				{fullDisclosure?.map((item, key) => {
 					return (
 						<React.Fragment key={key}>
 							<div className="flex flex-row justify-center drop-shadow-lg  items-center p-3">
@@ -191,7 +192,7 @@ const FullDisclosure = () => {
 					);
 				})}
 			</div>
-
+			<Projects fullDisclosure={fullDisclosure} />
 			<div>
 				<Footer />
 			</div>

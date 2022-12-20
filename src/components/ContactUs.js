@@ -12,7 +12,7 @@ export const ContactUs = () => {
 				'service_a6ikgpw',
 				'template_eoa8zji',
 				form.current,
-				'rbd9RH47sB8EaWLx_'
+				'e9KqViHHTC7fjNe25'
 			)
 			.then(
 				(result) => {

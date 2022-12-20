@@ -65,6 +65,7 @@ export const ContactUs = () => {
 						</div>
 						<div className="flex justify-center text-center ">
 							<div
+								onClick={sendEmail}
 								className="hover:text-green-500 cursor-pointer hover:scale-110 bg-white text-black w-20 h-10 rounded-lg flex justify-center items-center "
 								type="submit"
 								value="Send"

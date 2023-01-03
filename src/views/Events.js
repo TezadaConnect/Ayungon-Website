@@ -6,6 +6,7 @@ import VolleyballClinic_2 from '../assets/EventSlider/VolleyballClinic_2.jpg';
 import YouthSports from '../assets/EventSlider/YouthSports.jpg';
 import ChristmasParty from '../assets/EventSlider/ChristmasParty.jpg';
 import AyungonGovPh from '../assets/EventSlider/AyungonGovPh.jpg';
+import NewYear from '../assets/EventSlider/NewYear.jpg';
 const Events = () => {
 	const fadeImages = [
 		{
@@ -28,6 +29,10 @@ const Events = () => {
 		{
 			url: AyungonGovPh,
 			alt: 'AyungonGovPh',
+		},
+		{
+			url: NewYear,
+			alt: 'NewYear',
 		},
 	];
 	// const septemberEvents = [
@@ -75,6 +80,15 @@ const Events = () => {
 			caption:
 				"Part of the local government's wellness program,Volleyball Clinic will be launched on Tuesdayafternoon, September 13, 2022, at Ayungon TownSquare. There will be exhibition games, too. TheAyungon Volleyball Clinic is open to allvolleyball enthusiasts of the municipality. Toregister, please contact Coach Bea Pastor viaMessenger. See you there.",
 		},
+		{
+			eventImage: NewYear,
+			eventName: 'Wishing you all a happy, healthy new year!',
+			alt: 'NewYear',
+			link: 'https://www.facebook.com/photo/?fbid=575641927767864&set=a.497554042243320',
+			target: '_blank',
+			caption:
+				"Wishing you all a happy, healthy new year!",
+		},
 	];
 
 	return (
@@ -104,7 +118,7 @@ const Events = () => {
 			<div>
 				<div className="flex flex-col bg-slate-200 w-10/12 m-auto pb-36	">
 					<div className="flex justify-center items-center px-3 pt-5">
-						<div className="flex font-Cinzel text-3xl justify-center items-center text-white text-center w-3/4 p-5 bg-green-600 ">
+						<div className="flex font-Cinzel text-3xl justify-center items-center text-white text-center w-[868px] p-5 bg-green-600 ">
 							<h1> UPCOMING EVENTS</h1>
 						</div>
 					</div>
@@ -112,7 +126,7 @@ const Events = () => {
 						return (
 							<React.Fragment key={key}>
 								<div className="flex flex-row justify-center drop-shadow-lg  items-center px-3">
-									<div className="bg-white w-3/4 p-10 flex flex-row justify-center gap-20 items-center font-inter">
+									<div className="bg-white w[500px] p-10 flex flex-row justify-center gap-20 items-center font-inter">
 										<a
 											href={item?.link}
 											target={item?.target}

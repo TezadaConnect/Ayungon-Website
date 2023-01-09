@@ -20,8 +20,15 @@ import AppSUPPLEMENTALNOCY2021 from '../files/FullDisclosure/AppSUPPLEMENTALNOCY
 import AppSUPPLEMENTALNO5CY2021 from '../files/FullDisclosure/AppSUPPLEMENTALNO5CY2021.pdf';
 import AppSUPPLEMENTALNO4CY2021 from '../files/FullDisclosure/AppSUPPLEMENTALNO4CY2021.pdf';
 import BIDOUTPROJECTSFORGOODSANDCIVILWORKS from '../files/FullDisclosure/BIDOUTPROJECTSFORGOODSANDCIVILWORKS.pdf';
+import APP2023 from '../files/FullDisclosure/APP2023.pdf';
 import Projects from './Projects';
 const fullDisclosure = [
+	{
+		name: 'ANNUAL PROCUREMENT PLAN 2023',
+		file: APP2023,
+		type: 'appication/pdf',
+		target: '_blank',
+	},
 	{
 		name: 'BID OUT PROJECTS FOR GOODS AND CIVIL WORKS (3rd QUARTER CY 2022)',
 		file: BIDOUTPROJECTSFORGOODSANDCIVILWORKS,

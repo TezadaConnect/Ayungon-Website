@@ -22,7 +22,14 @@ import AppSUPPLEMENTALNO4CY2021 from '../files/FullDisclosure/AppSUPPLEMENTALNO4
 import BIDOUTPROJECTSFORGOODSANDCIVILWORKS from '../files/FullDisclosure/BIDOUTPROJECTSFORGOODSANDCIVILWORKS.pdf';
 import APP2023 from '../files/FullDisclosure/APP2023.pdf';
 import Projects from './Projects';
+import PMRJulytoDecember2022Final from '../files/FullDisclosure/PMRJulytoDecember2022Final'
 const fullDisclosure = [
+	{
+		name: 'PROJECT MONITORING REPORT JULY - DECEMBER 2022',
+		file: PMRJulytoDecember2022Final,
+		type: 'appication/pdf',
+		target: '_blank',
+	},
 	{
 		name: 'ANNUAL PROCUREMENT PLAN 2023',
 		file: APP2023,

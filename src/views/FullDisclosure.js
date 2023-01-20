@@ -21,8 +21,8 @@ import AppSUPPLEMENTALNO5CY2021 from '../files/FullDisclosure/AppSUPPLEMENTALNO5
 import AppSUPPLEMENTALNO4CY2021 from '../files/FullDisclosure/AppSUPPLEMENTALNO4CY2021.pdf';
 import BIDOUTPROJECTSFORGOODSANDCIVILWORKS from '../files/FullDisclosure/BIDOUTPROJECTSFORGOODSANDCIVILWORKS.pdf';
 import APP2023 from '../files/FullDisclosure/APP2023.pdf';
+import PMRJulytoDecember2022Final from '../files/FullDisclosure/PMRJulytoDecember2022Final.pdf';
 import Projects from './Projects';
-import PMRJulytoDecember2022Final from '../files/FullDisclosure/PMRJulytoDecember2022Final'
 const fullDisclosure = [
 	{
 		name: 'PROJECT MONITORING REPORT JULY - DECEMBER 2022',

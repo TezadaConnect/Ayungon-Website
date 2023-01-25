@@ -3,8 +3,48 @@ import downloadIcon from '../assets/downloadIcon.png';
 import NOTICEOFAWARD1 from '../files/BidsAndAwards/NoticeOfAwards/NOTICEOFAWARD1.pdf';
 import NOTICEOFAWARD2 from '../files/BidsAndAwards/NoticeOfAwards/NOTICEOFAWARD2.pdf';
 import BIDID20221054 from '../files/BidsAndAwards/NoticeOfAwards/BIDID20221054.pdf';
+import BIDIDNo20221271 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221271.pdf'
+import BIDIDNo20221272 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221272.pdf'
+import BIDIDNo20221268 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221268.pdf'
+import BIDIDNo20221275 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221275.pdf'
+import BIDIDNo20221274 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221274.pdf'
 const NoticeOfAwards = () => {
 	const noaData = [
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID No. 2022-12-74',
+			file: BIDIDNo20221274,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID No. 2022-12-75',
+			file: BIDIDNo20221275,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID No. 2022-12-68',
+			file: BIDIDNo20221268,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID No. 2022-12-72',
+			file: BIDIDNo20221272,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID No. 2022-12-71',
+			file: BIDIDNo20221271,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
 		{
 			bidId: 'NOTICE OF AWARD/PROCEED',
 			name: 'BID ID # 2022-10-54',

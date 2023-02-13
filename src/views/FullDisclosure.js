@@ -22,8 +22,15 @@ import AppSUPPLEMENTALNO4CY2021 from '../files/FullDisclosure/AppSUPPLEMENTALNO4
 import BIDOUTPROJECTSFORGOODSANDCIVILWORKS from '../files/FullDisclosure/BIDOUTPROJECTSFORGOODSANDCIVILWORKS.pdf';
 import APP2023 from '../files/FullDisclosure/APP2023.pdf';
 import PMRJulytoDecember2022Final from '../files/FullDisclosure/PMRJulytoDecember2022Final.pdf';
+import FD20230210001 from '../files/FullDisclosure/FD20230210001.pdf';
 import Projects from './Projects';
 const fullDisclosure = [
+	{
+		name: 'BID OUT PROJECTS FOR GOODS AND CIVIL WORKS (4th QUARTER CY 2022)',
+		file: FD20230210001,
+		type: 'appication/pdf',
+		target: '_blank',
+	},
 	{
 		name: 'PROJECT MONITORING REPORT JULY - DECEMBER 2022',
 		file: PMRJulytoDecember2022Final,

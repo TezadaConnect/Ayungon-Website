@@ -3,13 +3,103 @@ import downloadIcon from '../assets/downloadIcon.png';
 import NOTICEOFAWARD1 from '../files/BidsAndAwards/NoticeOfAwards/NOTICEOFAWARD1.pdf';
 import NOTICEOFAWARD2 from '../files/BidsAndAwards/NoticeOfAwards/NOTICEOFAWARD2.pdf';
 import BIDID20221054 from '../files/BidsAndAwards/NoticeOfAwards/BIDID20221054.pdf';
-import BIDIDNo20221271 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221271.pdf'
-import BIDIDNo20221272 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221272.pdf'
-import BIDIDNo20221268 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221268.pdf'
-import BIDIDNo20221275 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221275.pdf'
-import BIDIDNo20221274 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221274.pdf'
+import BIDIDNo20221271 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221271.pdf';
+import BIDIDNo20221272 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221272.pdf';
+import BIDIDNo20221268 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221268.pdf';
+import BIDIDNo20221275 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221275.pdf';
+import BIDIDNo20221274 from '../files/BidsAndAwards/NoticeOfAwards/BIDIDNo20221274.pdf';
+import NOA20230208002 from '../files/BidsAndAwards/NoticeOfAwards/NOA20230208002.pdf';
+import NOA20230208003 from '../files/BidsAndAwards/NoticeOfAwards/NOA20230208003.pdf';
+import NOA20230208004 from '../files/BidsAndAwards/NoticeOfAwards/NOA20230208004.pdf';
+import NOA20230208005 from '../files/BidsAndAwards/NoticeOfAwards/NOA20230208005.pdf';
+import NOA20230209001 from '../files/BidsAndAwards/NoticeOfAwards/NOA20230209001.pdf';
+import NOA20230209002 from '../files/BidsAndAwards/NoticeOfAwards/NOA20230209002.pdf';
+import NOA20230209003 from '../files/BidsAndAwards/NoticeOfAwards/NOA20230209003.pdf';
+import NOA20230209004 from '../files/BidsAndAwards/NoticeOfAwards/NOA20230209004.pdf';
+import NOA20230209010 from '../files/BidsAndAwards/NoticeOfAwards/NOA20230209010.pdf';
+import NOA20230209011 from '../files/BidsAndAwards/NoticeOfAwards/NOA20230209011.pdf';
+import NOA20230209012 from '../files/BidsAndAwards/NoticeOfAwards/NOA20230209012.pdf';
 const NoticeOfAwards = () => {
 	const noaData = [
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID NO.2022-12-70',
+			file: NOA20230209012,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID NO.2022-11-64',
+			file: NOA20230209011,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID NO.2022-11-65',
+			file: NOA20230209010,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID NO.2022-11-60',
+			file: NOA20230209004,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID NO.2022-11-57',
+			file: NOA20230209003,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID NO.2022-11-62',
+			file: NOA20230209002,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID NO.2022-12-58',
+			file: NOA20230209001,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID NO.2022-11-61',
+			file: NOA20230208005,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID NO.2022-11-61',
+			file: NOA20230208004,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID NO.2022-11-67',
+			file: NOA20230208003,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'NOTICE OF AWARD/PROCEED',
+			name: 'BID ID NO.2022-11-59',
+			file: NOA20230208002,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+
 		{
 			bidId: 'NOTICE OF AWARD/PROCEED',
 			name: 'BID ID No. 2022-12-74',

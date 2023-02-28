@@ -46,9 +46,113 @@ import BIDIDNO202210601 from '../files/BidsAndAwards/publicbidding/BIDIDNO202210
 import BIDIDNO202210631 from '../files/BidsAndAwards/publicbidding/BIDIDNO202210631.pdf';
 import BIDIDNO202210671 from '../files/BidsAndAwards/publicbidding/BIDIDNO202210671.pdf';
 import BIDIDNO202210681 from '../files/BidsAndAwards/publicbidding/BIDIDNO202210681.pdf';
-
+import BIDIDNO20230220004 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220004.pdf';
+import BIDIDNO20230220005 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220005.pdf';
+import BIDIDNO20230220006 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220006.pdf';
+import BIDIDNO20230220007 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220007.pdf';
+import BIDIDNO20230220008 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220008.pdf';
+import BIDIDNO20230220009 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220009.pdf';
+import BIDIDNO20230220010 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220010.pdf';
+import BIDIDNO20230220011 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220011.pdf';
+import BIDIDNO20230220012 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220012.pdf';
+import BIDIDNO20230220013 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220013.pdf';
+import BIDIDNO20230220014 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220014.pdf';
+import BIDIDNO20230220015 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220015.pdf';
+import BIDIDNO20230220016 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220016.pdf';
 const PublicBidding = () => {
 	const publicBidding = [
+		{
+			bidId: 'BID ID NO. 2023-02-13',
+			name: 'PROCUREMENT OF ONE (1) PACKAGE CONSTRUCTION MATERIALS FOR THE ROAD REHABILITATION PROGRAM: IMPROVEMENT OF ALL-WEATHER ROADS IN AMDUS,KILABAN, NIASAN(CAROL-AN) JANDALAMANON, DULI-DULI (TIBYAWAN) AT MUNICIPALITY OF AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20230220016,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-12',
+			name: 'PROCUREMENT OF ONE (1) PACKAGE VEGETABLE SEEDS FOR HIGH VALUE CROPS DEVELOPMENT PROGRAM (HVCDP) USE AT MUNICIPAL AGRICULTURE OFFICE, MUNICIPALITY OF AYUNGON ',
+			file: BIDIDNO20230220015,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-11',
+			name: 'PROCUREMENT OF ONE (1) PACKAGE RICE SEEDS AND FOLIAR FERTILIZER AT MUNICIPAL AGRICULTURE OFFICE USE AT MUNICIPALITY OF AYUNGON,NEGROS ORIENTAL  ',
+			file: BIDIDNO20230220014,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-10',
+			name: ' PROCUREMENT OF ONE (1) PACKAGE LIVESTOCK SUPPLIES AT MUNICIPAL AGRICULTURE OFFICE USE, MUNICIPALITY OF AYUNGON,NEG OR  ',
+			file: BIDIDNO20230220013,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-09',
+			name: ' PROCUREMENT OF TWO (2) UNITS HDPE PLASTIC PORTALETS FOR MUNICIPAL EVACUATION CENTER',
+			file: BIDIDNO20230220012,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-08',
+			name: 'ROAD CONCRETING AWA-AN BARANGAY ROAD (NEWLY OPENED ACCESS ROAD) AT AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20230220011,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-07',
+			name: 'ROAD CONCRETING TAMPOCON I-CANDANA-AY ROAD AT AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20230220010,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-06',
+			name: 'PROCUREMENT OF ONE PACKAGE ELECTRICAL MATERIALS FOR THE BARANGAY ELECTRIFICATION PROGRAM AT AYUNGON, NEGROS ORIENTAL  ',
+			file: BIDIDNO20230220009,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-05',
+			name: 'PROCUREMENT OF ONE PACKAGE PLUMBING MATERIALS FOR THE IMPROVEMENT AND REHABILITATION OF BARANGAY WATERWORKS SYSTEM - ALL BARANGAYS AT AYUNGON,.NEGROS ORIENTAL  ',
+			file: BIDIDNO20230220008,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-04',
+			name: 'PROCUREMENT OF BRAND NEW PICK UP VEHICLE 4X4 FOR S OFFICE USE AT AYUNGON,NEGROS ORIENTAL  ',
+			file: BIDIDNO20230220007,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-03',
+			name: 'REPAIR/REHABILITATION OF AYUNGON RURAL HEALTH UNIT AT AYUNGON,NEGROS ORIENTAL ',
+			file: BIDIDNO20230220006,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-02',
+			name: 'ROAD CONCRETING PORTION OF NABHANG BARANGAY ROAD AT AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20230220005,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-02-01',
+			name: 'ROAD CONCRETING PORTION OF CAROL-AN BARANGAY ROAD AT AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20230220004,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		
 		{
 			bidId: 'BID ID NO. 2022-12-68 (2nd POSTING)',
 			name: 'PROCUREMEN OF ONE (1) PACKAGE CONSTRUCTION MATERIALS FOR THE RENOVATION OF MUNICIPAL PLANNING DEVELOPMENT OFFICE AND BAC OFFICE AT MUNICIPALITY OF AYUNGON',

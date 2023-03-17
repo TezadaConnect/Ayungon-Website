@@ -23,8 +23,23 @@ import BIDOUTPROJECTSFORGOODSANDCIVILWORKS from '../files/FullDisclosure/BIDOUTP
 import APP2023 from '../files/FullDisclosure/APP2023.pdf';
 import PMRJulytoDecember2022Final from '../files/FullDisclosure/PMRJulytoDecember2022Final.pdf';
 import FD20230210001 from '../files/FullDisclosure/FD20230210001.pdf';
+import APPSUP1 from '../files/FullDisclosure/APPSUP1.pdf';
+import F20230228003 from '../files/FullDisclosure/F20230228003.pdf';
 import Projects from './Projects';
+
 const fullDisclosure = [
+	{
+		name: 'ANNUAL PROCUREMENT PLAN SUPPLEMENTAL NO 2 ',
+		file: F20230228003,
+		type: 'appication/pdf',
+		target: '_blank',
+	},
+	{
+		name: 'ANNUAL PROCUREMENT PLAN SUPPLEMENTAL NO 1',
+		file: APPSUP1,
+		type: 'appication/pdf',
+		target: '_blank',
+	},
 	{
 		name: 'BID OUT PROJECTS FOR GOODS AND CIVIL WORKS (4th QUARTER CY 2022)',
 		file: FD20230210001,

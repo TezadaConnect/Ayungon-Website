@@ -59,8 +59,57 @@ import BIDIDNO20230220013 from '../files/BidsAndAwards/publicbidding/BIDIDNO2023
 import BIDIDNO20230220014 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220014.pdf';
 import BIDIDNO20230220015 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220015.pdf';
 import BIDIDNO20230220016 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220016.pdf';
+import BIDID20230327001 from '../files/BidsAndAwards/publicbidding/BIDID20230327001.pdf';
+import BIDID20230327002 from '../files/BidsAndAwards/publicbidding/BIDID20230327002.pdf';
+import BIDID20230327003 from '../files/BidsAndAwards/publicbidding/BIDID20230327003.pdf';
+import BIDID20230327004 from '../files/BidsAndAwards/publicbidding/BIDID20230327004.pdf';
+import BIDID20230327005 from '../files/BidsAndAwards/publicbidding/BIDID20230327005.pdf';
+import BIDID20230327006 from '../files/BidsAndAwards/publicbidding/BIDID20230327006.pdf';
 const PublicBidding = () => {
 	const publicBidding = [
+		{
+			bidId: 'BID ID NO 2023-03-21',
+			name: 'PROCUREMENT OF MEDICAL SUPPLIES AT RHU - AYUNGON, NEGROS ORIENTAL',
+			file: BIDID20230327006,
+			type: 'appication/pdf',
+			target: '_blank',
+		},	
+		{
+			bidId: 'BID ID NO 2023-03-20',
+			name: 'PROCUREMENT OF MEDICINES FOR NON-COMMUNICABLE DISEASES PROGRAM AT RHU -AYUNGON, NEGROS ORIENTAL',
+			file: BIDID20230327005,
+			type: 'appication/pdf',
+			target: '_blank',
+		},	
+		{
+			bidId: 'BID ID NO 2023-03-19',
+			name: 'PROCUREMENT OF CONSTRUCTION MATERIALS FOR ENVIRONMENTAL SANITATION PROGRAM OF RHU - AYUNGON, NEGROS ORIENTAL',
+			file: BIDID20230327004,
+			type: 'appication/pdf',
+			target: '_blank',
+		},	
+		{
+			bidId: 'BID ID NO 2023-03-18',
+			name: 'PROCUREMENT OF VACCINES FOR RABIES PROGRAM OF RHU - AYUNGON',
+			file: BIDID20230327003,
+			type: 'appication/pdf',
+			target: '_blank',
+		},	
+		{
+			bidId: 'BID ID NO 2023-02-07 (2nd BIDDING)',
+			name: 'ROAD CONCRETING TAMPOCON I - CANDANAAY ROAD AT AYUNGON, NEGROS ORIENTAL',
+			file: BIDID20230327002,
+			type: 'appication/pdf',
+			target: '_blank',
+		},	
+		{
+			bidId: 'BID ID NO. 2023-02-05 (2nd Bidding)',
+			name: 'PROCUREMENT OF ONE PACKAGE PLUMBING MATERIALS FOR THE IMPROVEMENT AND REHABILITATION OF BARANGAY WATERWORKS SYSTEM - ALL BARANGAYS AT AYUNGON, NEGROS ORIENTAL',
+			file: BIDID20230327001,
+			type: 'appication/pdf',
+			target: '_blank',
+		},	
+	
 		{
 			bidId: 'BID ID NO. 2023-02-13',
 			name: 'PROCUREMENT OF ONE (1) PACKAGE CONSTRUCTION MATERIALS FOR THE ROAD REHABILITATION PROGRAM: IMPROVEMENT OF ALL-WEATHER ROADS IN AMDUS,KILABAN, NIASAN(CAROL-AN) JANDALAMANON, DULI-DULI (TIBYAWAN) AT MUNICIPALITY OF AYUNGON, NEGROS ORIENTAL',

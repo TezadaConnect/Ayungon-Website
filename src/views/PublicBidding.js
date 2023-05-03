@@ -59,8 +59,74 @@ import BIDIDNO20230220013 from '../files/BidsAndAwards/publicbidding/BIDIDNO2023
 import BIDIDNO20230220014 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220014.pdf';
 import BIDIDNO20230220015 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220015.pdf';
 import BIDIDNO20230220016 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230220016.pdf';
+import BIDIDNO20230413001 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230413001.pdf';
+import BIDIDNO20230413002 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230413002.pdf';
+import BIDIDNO20230413003 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230413003.pdf';
+import BIDIDNO20230413004 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230413004.pdf';
+import BIDIDNO20230413005 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230413005.pdf';
+import BIDIDNO20230413006 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230413006.pdf';
+import BIDIDNO20230426001 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230426001.pdf';
+import BIDIDNO20230426002 from '../files/BidsAndAwards/publicbidding/BIDIDNO20230426002.pdf';
+
 const PublicBidding = () => {
 	const publicBidding = [
+		{
+			bidId: 'BID ID NO. 2023-04-25 (2nd BIDDING)',
+			name: 'PROCUREMENT OF MEDICINES FOR OPD AT RHU-AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20230426002,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-04-22 (2nd BIDDING)',
+			name: 'PROCUREMENT OF MEDICINES FOR INFECTIOUS DISEASES AT RHU- AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20230426001,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-04-26',
+			name: 'PROCUREMENT OF ONE (1) PACKAGE OFFICE SUPPLIES FOR MUNICIPALITY OF AYUNGON USE AT AYUNGON, NEGROS ORIENTAL',
+			file: BIDIDNO20230413006,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-04-25',
+			name: 'PROCUREMENT OF MEDICINES FOR OPD AT RHU-AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20230413005,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-04-24',
+			name: 'PROCUREMENT OF MEDICINES FOR PRE-NATAL AND POST- NATAL AT RHU AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20230413004,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO. 2023-04-23',
+			name: 'PROCUREMENT OF MEDICINES FOR PEDIATRICS AT RHU AYUGON,NEGROS ORIENTAL',
+			file: BIDIDNO20230413003,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		{
+			bidId: 'BID ID NO 2023-04-22',
+			name: 'PROCUREMENT OF MEDICINES FOR INFECTIOUS DISEASE AT RHU AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20230413002,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
+		
+		{
+			bidId: 'BID ID NO. 2023-02-08 (2ND POSTING)',
+			name: 'ROAD CONCRETING AWA-AN BARANGAY ROAD (NEWLY OPENED ACCESS ROAD) AT AYUNGON,NEGROS ORIENTAL',
+			file: BIDIDNO20230413001,
+			type: 'appication/pdf',
+			target: '_blank',
+		},
 		{
 			bidId: 'BID ID NO. 2023-02-13',
 			name: 'PROCUREMENT OF ONE (1) PACKAGE CONSTRUCTION MATERIALS FOR THE ROAD REHABILITATION PROGRAM: IMPROVEMENT OF ALL-WEATHER ROADS IN AMDUS,KILABAN, NIASAN(CAROL-AN) JANDALAMANON, DULI-DULI (TIBYAWAN) AT MUNICIPALITY OF AYUNGON, NEGROS ORIENTAL',

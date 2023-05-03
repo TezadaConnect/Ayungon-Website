@@ -25,9 +25,19 @@ import PMRJulytoDecember2022Final from '../files/FullDisclosure/PMRJulytoDecembe
 import FD20230210001 from '../files/FullDisclosure/FD20230210001.pdf';
 import APPSUP1 from '../files/FullDisclosure/APPSUP1.pdf';
 import F20230228003 from '../files/FullDisclosure/F20230228003.pdf';
+import FD20230424001 from '../files/FullDisclosure/FD20230424001.pdf';
+
+
 import Projects from './Projects';
 
 const fullDisclosure = [
+	{
+		name: 'ANNUAL PROCUREMENT PLAN SUPPLEMENTAL NO 2 ',
+		file: FD20230424001,
+		type: 'appication/pdf',
+		target: '_blank',
+	},
+
 	{
 		name: 'ANNUAL PROCUREMENT PLAN SUPPLEMENTAL NO 2 ',
 		file: F20230228003,

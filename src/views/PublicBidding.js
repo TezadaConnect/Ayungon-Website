@@ -71,8 +71,8 @@ import BIDIDNO20230426002 from '../files/BidsAndAwards/publicbidding/BIDIDNO2023
 const PublicBidding = () => {
 	const publicBidding = [
 		{
-			bidId: 'BID ID NO. 2023-04-25 (2nd BIDDING)',
-			name: 'PROCUREMENT OF MEDICINES FOR OPD AT RHU-AYUNGON,NEGROS ORIENTAL',
+			bidId: 'BID ID NO. 2023-04-22 (2nd BIDDING)',
+			name: 'PROCUREMENT OF MEDICINES FOR INFECTIOUS DISEASES AT RHU- AYUNGON, NEGROS ORIENTAL',
 			file: BIDIDNO20230426002,
 			type: 'appication/pdf',
 			target: '_blank',
